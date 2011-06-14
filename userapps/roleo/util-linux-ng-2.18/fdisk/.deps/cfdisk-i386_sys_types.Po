@@ -1,0 +1,26 @@
+cfdisk-i386_sys_types.o cfdisk-i386_sys_types.o: i386_sys_types.c \
+  ./../config.h common.h ../include/nls.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/locale.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/features.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/uClibc_config.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/sys/cdefs.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/include/stddef.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/uClibc_locale.h
+
+./../config.h:
+
+common.h:
+
+../include/nls.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/locale.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/features.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/uClibc_config.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/sys/cdefs.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/include/stddef.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/uClibc_locale.h:

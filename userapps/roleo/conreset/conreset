@@ -1,0 +1,31 @@
+#!/bin/sh
+# Clear ip_conntrack entries by resetting TCP connections
+# Parameters: ip_addr
+#
+# massimiliano.galanti.sj@pirelli.com
+# --dnat used for reset virtual servers
+# --snat used for reset nat entries 
+# --snat used for reset dmz  
+
+echo connres
+if [ "$1" = "--dnat" ]; then
+	CONDITION="ESTABLISHED src=.* dst=$2 .*dport=$3 .*src="
+elif [ "$1" = "--dmz" ]; then
+	CONDITION="ESTABLISHED src=.* dst=$2 .*src=$3"
+elif [ "$1" = "--snat" ]; then
+	CONDITION="ESTABLISHED src=$2"
+else
+	echo "Invalid option: $1"
+fi
+cat /proc/net/ip_conntrack | grep "$CONDITION" | \
+while read CONN ; do
+        SRCIP=`echo $CONN | cut -d '=' -f 2 | cut -d ' ' -f 1`
+        DSTIP=`echo $CONN | cut -d '=' -f 3 | cut -d ' ' -f 1`
+        SRCPORT=`echo $CONN | cut -d '=' -f 4 | cut -d ' ' -f 1`
+        DSTPORT=`echo $CONN | cut -d '=' -f 5 | cut -d ' ' -f 1`
+
+       echo hping2 $DSTIP -R -s $SRCPORT -p $DSTPORT -a $SRCIP -k -c 1 -n
+        hping2 $DSTIP -R -s $SRCPORT -p $DSTPORT -a $SRCIP -k -c 1 -n
+       echo hping2 $SRCIP -R -s $DSTPORT -p $SRCPORT -a $DSTIP -k -c 1 -n
+        hping2 $SRCIP -R -s $DSTPORT -p $SRCPORT -a $DSTIP -k -c 1 -n
+done

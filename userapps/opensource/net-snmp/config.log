@@ -1,0 +1,2823 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:1534: checking if I need to feed myself to ksh
+configure:1569: checking for gcc
+configure:1682: checking whether the C compiler (gcc  ) works
+configure:1698: gcc -o conftest    conftest.c  1>&5
+configure:1724: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:1729: checking whether we are using GNU C
+configure:1738: gcc -E conftest.c
+configure:1757: checking whether gcc accepts -g
+configure:1789: checking how to run the C preprocessor
+configure:1810: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1869: checking for AIX
+configure:1893: checking for Cygwin environment
+configure:1909: gcc -c -g -O2  conftest.c 1>&5
+configure: In function `main':
+configure:1905: `__CYGWIN32__' undeclared (first use in this function)
+configure:1905: (Each undeclared identifier is reported only once
+configure:1905: for each function it appears in.)
+configure: failed program was:
+#line 1898 "configure"
+#include "confdefs.h"
+
+int main() {
+
+#ifndef __CYGWIN__
+#define __CYGWIN__ __CYGWIN32__
+#endif
+return __CYGWIN__;
+; return 0; }
+configure:1926: checking for mingw32 environment
+configure:1938: gcc -c -g -O2  conftest.c 1>&5
+configure: In function `main':
+configure:1934: `__MINGW32__' undeclared (first use in this function)
+configure:1934: (Each undeclared identifier is reported only once
+configure:1934: for each function it appears in.)
+configure: failed program was:
+#line 1931 "configure"
+#include "confdefs.h"
+
+int main() {
+return __MINGW32__;
+; return 0; }
+configure:1957: checking for executable suffix
+configure:1967: gcc -o conftest -g -O2   conftest.c  1>&5
+configure:2096: checking host system type
+configure:2117: checking build system type
+configure:2146: checking for ld used by GCC
+configure:2214: checking if the linker (/usr/bin/ld) is GNU ld
+GNU ld version 2.10.91 (with BFD 2.10.91.0.2)
+configure:2231: checking for /usr/bin/ld option to reload object files
+configure:2243: checking for BSD-compatible nm
+configure:2281: checking for a sed that does not truncate output
+configure:2365: checking whether ln -s works
+configure:2386: checking how to recognise dependent libraries
+configure:2572: checking for object suffix
+configure:2578: gcc -c -g -O2  conftest.c 1>&5
+configure:2606: checking command to parse /usr/bin/nm -B output
+configure:2689: gcc -c -g -O2  conftest.c 1>&5
+configure:2692: /usr/bin/nm -B conftest.o | sed -n -e 's/^.*[ ]\([ABCDGISTW][ABCDGISTW]*\)[ ][ ]*\(\)\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2\3 \3/p' > conftest.nm
+configure:2743: gcc -o conftest -g -O2   conftest.c conftstm.o 1>&5
+configure:2792: checking for dlfcn.h
+configure:2802: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2971: checking for ranlib
+configure:3038: checking for strip
+configure:3555: checking for objdir
+configure:3586: checking for gcc option to produce PIC
+configure:3734: checking if gcc PIC flag -fPIC works
+configure:3748: gcc -c -g -O2 -fPIC -DPIC  conftest.c 1>&5
+configure:3804: checking if gcc static flag -static works
+configure:3819: gcc -o conftest -g -O2   -static conftest.c  1>&5
+configure:3850: checking if gcc supports -c -o file.o
+configure:3869: gcc -c -g -O2 -o out/conftest2.o  conftest.c 1>&5
+configure:3898: checking if gcc supports -c -o file.lo
+configure:3916: gcc -c -g -O2 -c -o conftest.lo  conftest.c 1>&5
+configure:3974: checking if gcc supports -fno-rtti -fno-exceptions
+configure:3987: gcc -c -g -O2 -fno-rtti -fno-exceptions -c conftest.c  conftest.c 1>&5
+configure:4018: checking whether the linker (/usr/bin/ld) supports shared libraries
+configure:4721: checking how to hardcode library paths into programs
+configure:4753: checking whether stripping libraries is possible
+configure:4771: checking dynamic linker characteristics
+configure:5186: checking if libtool supports shared libraries
+configure:5194: checking whether to build shared libraries
+configure:5221: checking whether to build static libraries
+configure:5264: checking for shl_load
+configure:5292: gcc -o conftest -g -O2   conftest.c  1>&5
+/tmp/ccj284KV.o: In function `main':
+/myviews/yentran_sview_temp/CommEngine/userapps/opensource/net-snmp/net-snmp-5.0.8/configure:5286: undefined reference to `shl_load'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 5269 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char shl_load(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char shl_load();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_shl_load) || defined (__stub___shl_load)
+choke me
+#else
+shl_load();
+#endif
+
+; return 0; }
+configure:5310: checking for shl_load in -ldld
+configure:5329: gcc -o conftest -g -O2   conftest.c -ldld   1>&5
+/usr/bin/ld: cannot find -ldld
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 5318 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char shl_load();
+
+int main() {
+shl_load()
+; return 0; }
+configure:5348: checking for dlopen
+configure:5376: gcc -o conftest -g -O2   conftest.c  1>&5
+/tmp/ccmlhnEC.o: In function `main':
+/myviews/yentran_sview_temp/CommEngine/userapps/opensource/net-snmp/net-snmp-5.0.8/configure:5370: undefined reference to `dlopen'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 5353 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char dlopen(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char dlopen();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_dlopen) || defined (__stub___dlopen)
+choke me
+#else
+dlopen();
+#endif
+
+; return 0; }
+configure:5394: checking for dlopen in -ldl
+configure:5413: gcc -o conftest -g -O2   conftest.c -ldl   1>&5
+configure:5545: checking whether a program can dlopen itself
+configure:5616: gcc -o conftest -g -O2  -DHAVE_DLFCN_H  -Wl,--export-dynamic conftest.c -ldl  1>&5
+configure:5639: checking whether a statically linked program can dlopen itself
+configure:5710: gcc -o conftest -g -O2  -DHAVE_DLFCN_H  -Wl,--export-dynamic -static conftest.c -ldl  1>&5
+configure:5761: checking whether -lc should be explicitly linked in
+configure:5768: gcc -c -g -O2  conftest.c 1>&5
+configure:5781: gcc -shared conftest.o  -v -Wl,-soname -Wl,conftest -o conftest 2>&1 | grep  -lc  >/dev/null 2>&1
+configure:6384: checking for a BSD compatible install
+configure:6437: checking whether ln -s works
+configure:6458: checking whether make sets ${MAKE}
+configure:6487: checking for ps
+configure:6522: checking for perl
+configure:6559: checking for whoami
+configure:6594: checking for sed
+configure:6626: checking for autoconf
+configure:6655: checking for autoheader
+configure:6693: checking for uname
+configure:6731: checking for working const
+configure:6785: gcc -c -g -O2  conftest.c 1>&5
+configure:6806: checking for inline
+configure:6820: gcc -c -g -O2  conftest.c 1>&5
+configure:6847: checking for net-snmp version number
+configure:6862: checking for developer gcc flags
+configure:6899: checking host system type
+configure:6920: checking target system type
+configure:6938: checking build system type
+configure:6972: checking for system include file
+configure:7002: checking for machine-type include file
+configure:7026: checking for gcc
+configure:7081: checking for additional cpp flags
+configure:7352: checking whether we have to build PIC code
+configure:7364: checking for and configuring transport modules to use
+configure:7454: checking for security modules to use
+configure:7600: checking for and configuring mib modules to use
+configure:7656: checking for and configuring mib modules pieces to use
+configure:7774: checking if directories need to be created
+configure:7781: checking default mib files to read
+configure:7793: checking for location of system kernel
+configure:7829: checking for mount table location
+configure:7852: checking for location of swap device
+configure:7937: checking for asin in -lm
+configure:7956: gcc -o conftest -g -O2 -Dlinux   conftest.c -lm   1>&5
+configure:7984: checking for nlist in -lelf
+configure:8003: gcc -o conftest -g -O2 -Dlinux   conftest.c -lelf  -lm  1>&5
+configure:8032: checking for gethostbyname
+configure:8060: gcc -o conftest -g -O2 -Dlinux   conftest.c -lelf -lm  1>&5
+configure:8127: checking for getservbyname
+configure:8155: gcc -o conftest -g -O2 -Dlinux   conftest.c -lelf -lm  1>&5
+configure:8223: checking for kstat_lookup in -lkstat
+configure:8242: gcc -o conftest -g -O2 -Dlinux   conftest.c -lkstat  -lelf -lm  1>&5
+/usr/bin/ld: cannot find -lkstat
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 8231 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char kstat_lookup();
+
+int main() {
+kstat_lookup()
+; return 0; }
+configure:8270: checking for nlist in -lmld
+configure:8289: gcc -o conftest -g -O2 -Dlinux   conftest.c -lmld  -lelf -lm  1>&5
+/usr/bin/ld: cannot find -lmld
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 8278 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char nlist();
+
+int main() {
+nlist()
+; return 0; }
+configure:8416: checking for EVP_md5 in -lcrypto
+configure:8435: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto  -lelf -lm  1>&5
+configure:8465: checking for AES_cfb128_encrypt
+configure:8493: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+/tmp/cc90Hnib.o: In function `main':
+/myviews/yentran_sview_temp/CommEngine/userapps/opensource/net-snmp/net-snmp-5.0.8/configure:8487: undefined reference to `AES_cfb128_encrypt'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 8470 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char AES_cfb128_encrypt(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char AES_cfb128_encrypt();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_AES_cfb128_encrypt) || defined (__stub___AES_cfb128_encrypt)
+choke me
+#else
+AES_cfb128_encrypt();
+#endif
+
+; return 0; }
+configure:9260: checking for kvm_read in -lkvm
+configure:9279: gcc -o conftest -g -O2 -Dlinux   conftest.c -lkvm  -lcrypto -lelf -lm  1>&5
+/usr/bin/ld: cannot find -lkvm
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 9268 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char kvm_read();
+
+int main() {
+kvm_read()
+; return 0; }
+configure:9307: checking for dlopen in -ldl
+configure:9356: checking for dlopen
+configure:9412: checking for kvm_openfiles
+configure:9440: gcc -o conftest -g -O2 -Dlinux   conftest.c -ldl -lcrypto -lelf -lm  1>&5
+/tmp/cchxHvKY.o: In function `main':
+/myviews/yentran_sview_temp/CommEngine/userapps/opensource/net-snmp/net-snmp-5.0.8/configure:9434: undefined reference to `kvm_openfiles'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 9417 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char kvm_openfiles(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char kvm_openfiles();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_kvm_openfiles) || defined (__stub___kvm_openfiles)
+choke me
+#else
+kvm_openfiles();
+#endif
+
+; return 0; }
+configure:9412: checking for nlist
+configure:9440: gcc -o conftest -g -O2 -Dlinux   conftest.c -ldl -lcrypto -lelf -lm  1>&5
+configure:9412: checking for knlist
+configure:9440: gcc -o conftest -g -O2 -Dlinux   conftest.c -ldl -lcrypto -lelf -lm  1>&5
+/tmp/ccZ7a7Rm.o: In function `main':
+/myviews/yentran_sview_temp/CommEngine/userapps/opensource/net-snmp/net-snmp-5.0.8/configure:9434: undefined reference to `knlist'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 9417 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char knlist(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char knlist();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_knlist) || defined (__stub___knlist)
+choke me
+#else
+knlist();
+#endif
+
+; return 0; }
+configure:9412: checking for kvm_getprocs
+configure:9440: gcc -o conftest -g -O2 -Dlinux   conftest.c -ldl -lcrypto -lelf -lm  1>&5
+/tmp/cc5jVmhN.o: In function `main':
+/myviews/yentran_sview_temp/CommEngine/userapps/opensource/net-snmp/net-snmp-5.0.8/configure:9434: undefined reference to `kvm_getprocs'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 9417 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char kvm_getprocs(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char kvm_getprocs();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_kvm_getprocs) || defined (__stub___kvm_getprocs)
+choke me
+#else
+kvm_getprocs();
+#endif
+
+; return 0; }
+configure:9671: checking for ANSI C header files
+configure:9684: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9751: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:9779: checking for dirent.h that defines DIR
+configure:9792: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure:9817: checking for opendir in -ldir
+configure:9836: gcc -o conftest -g -O2 -Dlinux   conftest.c -ldir  -lcrypto -lelf -lm  1>&5
+/usr/bin/ld: cannot find -ldir
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 9825 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char opendir();
+
+int main() {
+opendir()
+; return 0; }
+configure:9900: checking for sys/wait.h that is POSIX.1 compatible
+configure:9921: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure:9945: checking for stdarg.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for string.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for fcntl.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for limits.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for sys/file.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for sys/ioctl.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for syslog.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for unistd.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for netinet/tcpip.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9951:27: netinet/tcpip.h: No such file or directory
+configure: failed program was:
+#line 9950 "configure"
+#include "confdefs.h"
+#include <netinet/tcpip.h>
+configure:9945: checking for netinet/in.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for netinet/ip.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for netinet/ip_icmp.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for net/if.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for netdb.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for sys/dmap.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9951:22: sys/dmap.h: No such file or directory
+configure: failed program was:
+#line 9950 "configure"
+#include "confdefs.h"
+#include <sys/dmap.h>
+configure:9945: checking for machine/pte.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9951:25: machine/pte.h: No such file or directory
+configure: failed program was:
+#line 9950 "configure"
+#include "confdefs.h"
+#include <machine/pte.h>
+configure:9945: checking for xti.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9951:17: xti.h: No such file or directory
+configure: failed program was:
+#line 9950 "configure"
+#include "confdefs.h"
+#include <xti.h>
+configure:9945: checking for sys/sockio.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9951:24: sys/sockio.h: No such file or directory
+configure: failed program was:
+#line 9950 "configure"
+#include "confdefs.h"
+#include <sys/sockio.h>
+configure:9945: checking for sys/socket.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for sys/un.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for fstab.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for sys/fs.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9951:20: sys/fs.h: No such file or directory
+configure: failed program was:
+#line 9950 "configure"
+#include "confdefs.h"
+#include <sys/fs.h>
+configure:9945: checking for mtab.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9951:18: mtab.h: No such file or directory
+configure: failed program was:
+#line 9950 "configure"
+#include "confdefs.h"
+#include <mtab.h>
+configure:9945: checking for ufs/fs.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9951:20: ufs/fs.h: No such file or directory
+configure: failed program was:
+#line 9950 "configure"
+#include "confdefs.h"
+#include <ufs/fs.h>
+configure:9945: checking for ufs/ffs/fs.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9951:24: ufs/ffs/fs.h: No such file or directory
+configure: failed program was:
+#line 9950 "configure"
+#include "confdefs.h"
+#include <ufs/ffs/fs.h>
+configure:9945: checking for sys/fixpoint.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9951:26: sys/fixpoint.h: No such file or directory
+configure: failed program was:
+#line 9950 "configure"
+#include "confdefs.h"
+#include <sys/fixpoint.h>
+configure:9945: checking for machine/param.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9951:27: machine/param.h: No such file or directory
+configure: failed program was:
+#line 9950 "configure"
+#include "confdefs.h"
+#include <machine/param.h>
+configure:9945: checking for sys/vm.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9951:20: sys/vm.h: No such file or directory
+configure: failed program was:
+#line 9950 "configure"
+#include "confdefs.h"
+#include <sys/vm.h>
+configure:9945: checking for vm/vm.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9951:19: vm/vm.h: No such file or directory
+configure: failed program was:
+#line 9950 "configure"
+#include "confdefs.h"
+#include <vm/vm.h>
+configure:9945: checking for sys/vmmeter.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9951:25: sys/vmmeter.h: No such file or directory
+configure: failed program was:
+#line 9950 "configure"
+#include "confdefs.h"
+#include <sys/vmmeter.h>
+configure:9945: checking for sys/vmparam.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9951:25: sys/vmparam.h: No such file or directory
+configure: failed program was:
+#line 9950 "configure"
+#include "confdefs.h"
+#include <sys/vmparam.h>
+configure:9945: checking for sys/vmmac.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9951:23: sys/vmmac.h: No such file or directory
+configure: failed program was:
+#line 9950 "configure"
+#include "confdefs.h"
+#include <sys/vmmac.h>
+configure:9945: checking for sys/vmsystm.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9951:25: sys/vmsystm.h: No such file or directory
+configure: failed program was:
+#line 9950 "configure"
+#include "confdefs.h"
+#include <sys/vmsystm.h>
+configure:9945: checking for sys/mbuf.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9951:22: sys/mbuf.h: No such file or directory
+configure: failed program was:
+#line 9950 "configure"
+#include "confdefs.h"
+#include <sys/mbuf.h>
+configure:9945: checking for sys/time.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for sys/swap.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for inet/mib2.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9951:23: inet/mib2.h: No such file or directory
+configure: failed program was:
+#line 9950 "configure"
+#include "confdefs.h"
+#include <inet/mib2.h>
+configure:9945: checking for sys/statvfs.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for sys/vfs.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for sys/mnttab.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9951:24: sys/mnttab.h: No such file or directory
+configure: failed program was:
+#line 9950 "configure"
+#include "confdefs.h"
+#include <sys/mnttab.h>
+configure:9945: checking for sys/user.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for sys/proc.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9951:22: sys/proc.h: No such file or directory
+configure: failed program was:
+#line 9950 "configure"
+#include "confdefs.h"
+#include <sys/proc.h>
+configure:9945: checking for sys/select.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for mntent.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for sys/mntent.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9951:24: sys/mntent.h: No such file or directory
+configure: failed program was:
+#line 9950 "configure"
+#include "confdefs.h"
+#include <sys/mntent.h>
+configure:9945: checking for kstat.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9951:19: kstat.h: No such file or directory
+configure: failed program was:
+#line 9950 "configure"
+#include "confdefs.h"
+#include <kstat.h>
+configure:9945: checking for utsname.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9951:21: utsname.h: No such file or directory
+configure: failed program was:
+#line 9950 "configure"
+#include "confdefs.h"
+#include <utsname.h>
+configure:9945: checking for sys/utsname.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for sys/cdefs.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for getopt.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for locale.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for pthread.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for sys/loadavg.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9951:25: sys/loadavg.h: No such file or directory
+configure: failed program was:
+#line 9950 "configure"
+#include "confdefs.h"
+#include <sys/loadavg.h>
+configure:9945: checking for regex.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for linux/tasks.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9951:25: linux/tasks.h: No such file or directory
+configure: failed program was:
+#line 9950 "configure"
+#include "confdefs.h"
+#include <linux/tasks.h>
+configure:9945: checking for pwd.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for grp.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9945: checking for utmpx.h
+configure:9955: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9985: checking for malloc.h
+configure:9995: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9985: checking for sys/param.h
+configure:9995: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9985: checking for net/if_dl.h
+configure:9995: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9991:23: net/if_dl.h: No such file or directory
+configure: failed program was:
+#line 9990 "configure"
+#include "confdefs.h"
+#include <net/if_dl.h>
+configure:9985: checking for sys/sysctl.h
+configure:9995: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9985: checking for stdlib.h
+configure:9995: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9985: checking for net/if_mib.h
+configure:9995: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9991:24: net/if_mib.h: No such file or directory
+configure: failed program was:
+#line 9990 "configure"
+#include "confdefs.h"
+#include <net/if_mib.h>
+configure:9985: checking for net/if_types.h
+configure:9995: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9991:26: net/if_types.h: No such file or directory
+configure: failed program was:
+#line 9990 "configure"
+#include "confdefs.h"
+#include <net/if_types.h>
+configure:9985: checking for net/if_var.h
+configure:9995: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9991:24: net/if_var.h: No such file or directory
+configure: failed program was:
+#line 9990 "configure"
+#include "confdefs.h"
+#include <net/if_var.h>
+configure:9985: checking for sys/queue.h
+configure:9995: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9985: checking for osreldate.h
+configure:9995: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9991:23: osreldate.h: No such file or directory
+configure: failed program was:
+#line 9990 "configure"
+#include "confdefs.h"
+#include <osreldate.h>
+configure:9985: checking for machine/types.h
+configure:9995: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:9991:27: machine/types.h: No such file or directory
+configure: failed program was:
+#line 9990 "configure"
+#include "confdefs.h"
+#include <machine/types.h>
+configure:9985: checking for sys/socketvar.h
+configure:9995: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10025: checking for sys/conf.h
+configure:10035: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10031:22: sys/conf.h: No such file or directory
+configure: failed program was:
+#line 10030 "configure"
+#include "confdefs.h"
+#include <sys/conf.h>
+configure:10025: checking for netinet/in_systm.h
+configure:10035: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10025: checking for netinet/tcp.h
+configure:10035: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10025: checking for netinet/udp.h
+configure:10035: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10025: checking for netinet/in_var.h
+configure:10035: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10031:28: netinet/in_var.h: No such file or directory
+configure: failed program was:
+#line 10030 "configure"
+#include "confdefs.h"
+#include <netinet/in_var.h>
+configure:10025: checking for netinet/if_ether.h
+configure:10035: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10025: checking for netinet/ip_var.h
+configure:10035: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10031:28: netinet/ip_var.h: No such file or directory
+configure: failed program was:
+#line 10030 "configure"
+#include "confdefs.h"
+#include <netinet/ip_var.h>
+configure:10025: checking for netinet/tcp_timer.h
+configure:10035: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10031:31: netinet/tcp_timer.h: No such file or directory
+configure: failed program was:
+#line 10030 "configure"
+#include "confdefs.h"
+#include <netinet/tcp_timer.h>
+configure:10025: checking for netinet/tcp_var.h
+configure:10035: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10031:29: netinet/tcp_var.h: No such file or directory
+configure: failed program was:
+#line 10030 "configure"
+#include "confdefs.h"
+#include <netinet/tcp_var.h>
+configure:10025: checking for netinet/tcp_fsm.h
+configure:10035: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10031:29: netinet/tcp_fsm.h: No such file or directory
+configure: failed program was:
+#line 10030 "configure"
+#include "confdefs.h"
+#include <netinet/tcp_fsm.h>
+configure:10025: checking for netinet/udp_var.h
+configure:10035: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10031:29: netinet/udp_var.h: No such file or directory
+configure: failed program was:
+#line 10030 "configure"
+#include "confdefs.h"
+#include <netinet/udp_var.h>
+configure:10025: checking for netinet/icmp_var.h
+configure:10035: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10031:30: netinet/icmp_var.h: No such file or directory
+configure: failed program was:
+#line 10030 "configure"
+#include "confdefs.h"
+#include <netinet/icmp_var.h>
+configure:10025: checking for sys/protosw.h
+configure:10035: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10031:25: sys/protosw.h: No such file or directory
+configure: failed program was:
+#line 10030 "configure"
+#include "confdefs.h"
+#include <sys/protosw.h>
+configure:10025: checking for nlist.h
+configure:10035: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10031:19: nlist.h: No such file or directory
+configure: failed program was:
+#line 10030 "configure"
+#include "confdefs.h"
+#include <nlist.h>
+configure:10025: checking for ioctls.h
+configure:10035: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10031:20: ioctls.h: No such file or directory
+configure: failed program was:
+#line 10030 "configure"
+#include "confdefs.h"
+#include <ioctls.h>
+configure:10025: checking for asm/page.h
+configure:10035: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10025: checking for netipx/ipx.h
+configure:10035: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10065: checking for arpa/inet.h
+configure:10075: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10065: checking for kvm.h
+configure:10075: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10071:17: kvm.h: No such file or directory
+configure: failed program was:
+#line 10070 "configure"
+#include "confdefs.h"
+#include <kvm.h>
+configure:10065: checking for sys/pool.h
+configure:10075: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10071:22: sys/pool.h: No such file or directory
+configure: failed program was:
+#line 10070 "configure"
+#include "confdefs.h"
+#include <sys/pool.h>
+configure:10065: checking for uvm/uvm_param.h
+configure:10075: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10071:27: uvm/uvm_param.h: No such file or directory
+configure: failed program was:
+#line 10070 "configure"
+#include "confdefs.h"
+#include <uvm/uvm_param.h>
+configure:10065: checking for uvm/uvm_extern.h
+configure:10075: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10071:28: uvm/uvm_extern.h: No such file or directory
+configure: failed program was:
+#line 10070 "configure"
+#include "confdefs.h"
+#include <uvm/uvm_extern.h>
+configure:10065: checking for vm/vm_param.h
+configure:10075: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10071:25: vm/vm_param.h: No such file or directory
+configure: failed program was:
+#line 10070 "configure"
+#include "confdefs.h"
+#include <vm/vm_param.h>
+configure:10065: checking for vm/vm_extern.h
+configure:10075: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10071:26: vm/vm_extern.h: No such file or directory
+configure: failed program was:
+#line 10070 "configure"
+#include "confdefs.h"
+#include <vm/vm_extern.h>
+configure:10105: checking for sys/mount.h
+configure:10115: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10105: checking for vm/swap_pager.h
+configure:10115: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10111:27: vm/swap_pager.h: No such file or directory
+configure: failed program was:
+#line 10110 "configure"
+#include "confdefs.h"
+#include <vm/swap_pager.h>
+configure:10105: checking for ufs/ufs/dinode.h
+configure:10115: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10111:28: ufs/ufs/dinode.h: No such file or directory
+configure: failed program was:
+#line 10110 "configure"
+#include "confdefs.h"
+#include <ufs/ufs/dinode.h>
+configure:10145: checking for sys/stat.h
+configure:10155: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10145: checking for sys/vnode.h
+configure:10155: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10151:23: sys/vnode.h: No such file or directory
+configure: failed program was:
+#line 10150 "configure"
+#include "confdefs.h"
+#include <sys/vnode.h>
+configure:10145: checking for ufs/ufs/quota.h
+configure:10155: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10151:27: ufs/ufs/quota.h: No such file or directory
+configure: failed program was:
+#line 10150 "configure"
+#include "confdefs.h"
+#include <ufs/ufs/quota.h>
+configure:10145: checking for ufs/ufs/inode.h
+configure:10155: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10151:27: ufs/ufs/inode.h: No such file or directory
+configure: failed program was:
+#line 10150 "configure"
+#include "confdefs.h"
+#include <ufs/ufs/inode.h>
+configure:10185: checking for sys/hashing.h
+configure:10195: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10191:25: sys/hashing.h: No such file or directory
+configure: failed program was:
+#line 10190 "configure"
+#include "confdefs.h"
+#include <sys/hashing.h>
+configure:10185: checking for sys/tcpipstats.h
+configure:10195: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10191:28: sys/tcpipstats.h: No such file or directory
+configure: failed program was:
+#line 10190 "configure"
+#include "confdefs.h"
+#include <sys/tcpipstats.h>
+configure:10185: checking for sys/sysmp.h
+configure:10195: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10191:23: sys/sysmp.h: No such file or directory
+configure: failed program was:
+#line 10190 "configure"
+#include "confdefs.h"
+#include <sys/sysmp.h>
+configure:10225: checking for err.h
+configure:10235: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10225: checking for sys/filio.h
+configure:10235: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10231:23: sys/filio.h: No such file or directory
+configure: failed program was:
+#line 10230 "configure"
+#include "confdefs.h"
+#include <sys/filio.h>
+configure:10225: checking for sgtty.h
+configure:10235: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10265: checking for sys/statfs.h
+configure:10275: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10305: checking for net/route.h
+configure:10315: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10345: checking for sys/dkio.h
+configure:10355: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10351:22: sys/dkio.h: No such file or directory
+configure: failed program was:
+#line 10350 "configure"
+#include "confdefs.h"
+#include <sys/dkio.h>
+configure:10345: checking for sys/diskio.h
+configure:10355: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10351:24: sys/diskio.h: No such file or directory
+configure: failed program was:
+#line 10350 "configure"
+#include "confdefs.h"
+#include <sys/diskio.h>
+configure:10345: checking for sys/pstat.h
+configure:10355: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10351:23: sys/pstat.h: No such file or directory
+configure: failed program was:
+#line 10350 "configure"
+#include "confdefs.h"
+#include <sys/pstat.h>
+configure:10345: checking for linux/hdreg.h
+configure:10355: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10345: checking for pkglocs.h
+configure:10355: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10351:21: pkglocs.h: No such file or directory
+configure: failed program was:
+#line 10350 "configure"
+#include "confdefs.h"
+#include <pkglocs.h>
+configure:10385: checking for pkginfo.h
+configure:10395: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10391:21: pkginfo.h: No such file or directory
+configure: failed program was:
+#line 10390 "configure"
+#include "confdefs.h"
+#include <pkginfo.h>
+configure:10469: checking for winsock.h
+configure:10479: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10475:21: winsock.h: No such file or directory
+configure: failed program was:
+#line 10474 "configure"
+#include "confdefs.h"
+#include <winsock.h>
+configure:10509: checking for io.h
+configure:10519: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10515:16: io.h: No such file or directory
+configure: failed program was:
+#line 10514 "configure"
+#include "confdefs.h"
+#include <io.h>
+configure:10549: checking for sys/stream.h
+configure:10559: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10555:24: sys/stream.h: No such file or directory
+configure: failed program was:
+#line 10554 "configure"
+#include "confdefs.h"
+#include <sys/stream.h>
+configure:10589: checking for netinet/ip6.h
+configure:10599: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10589: checking for netinet6/in6_var.h
+configure:10599: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10595:30: netinet6/in6_var.h: No such file or directory
+configure: failed program was:
+#line 10594 "configure"
+#include "confdefs.h"
+#include <netinet6/in6_var.h>
+configure:10589: checking for netinet6/in6_pcb.h
+configure:10599: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10595:30: netinet6/in6_pcb.h: No such file or directory
+configure: failed program was:
+#line 10594 "configure"
+#include "confdefs.h"
+#include <netinet6/in6_pcb.h>
+configure:10589: checking for netinet6/ip6_var.h
+configure:10599: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10595:30: netinet6/ip6_var.h: No such file or directory
+configure: failed program was:
+#line 10594 "configure"
+#include "confdefs.h"
+#include <netinet6/ip6_var.h>
+configure:10589: checking for netinet6/tcp6.h
+configure:10599: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10595:27: netinet6/tcp6.h: No such file or directory
+configure: failed program was:
+#line 10594 "configure"
+#include "confdefs.h"
+#include <netinet6/tcp6.h>
+configure:10589: checking for netinet6/tcp6_fsm.h
+configure:10599: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10595:31: netinet6/tcp6_fsm.h: No such file or directory
+configure: failed program was:
+#line 10594 "configure"
+#include "confdefs.h"
+#include <netinet6/tcp6_fsm.h>
+configure:10589: checking for netinet6/nd6.h
+configure:10599: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10595:26: netinet6/nd6.h: No such file or directory
+configure: failed program was:
+#line 10594 "configure"
+#include "confdefs.h"
+#include <netinet6/nd6.h>
+configure:10589: checking for netinet6/tcp6_timer.h
+configure:10599: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10595:33: netinet6/tcp6_timer.h: No such file or directory
+configure: failed program was:
+#line 10594 "configure"
+#include "confdefs.h"
+#include <netinet6/tcp6_timer.h>
+configure:10589: checking for netinet6/tcp6_var.h
+configure:10599: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10595:31: netinet6/tcp6_var.h: No such file or directory
+configure: failed program was:
+#line 10594 "configure"
+#include "confdefs.h"
+#include <netinet6/tcp6_var.h>
+configure:10629: checking for dlfcn.h
+configure:10669: checking for search.h
+configure:10679: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10791: checking for netinet/in_pcb.h
+configure:10804: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10799:28: netinet/in_pcb.h: No such file or directory
+configure: failed program was:
+#line 10796 "configure"
+#include "confdefs.h"
+
+#include <netinet/in.h>
+#include <netinet/in_pcb.h>
+
+configure:10828: checking for sys/disklabel.h
+configure:10841: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10835:27: machine/types.h: No such file or directory
+configure:10836:27: sys/disklabel.h: No such file or directory
+configure: failed program was:
+#line 10833 "configure"
+#include "confdefs.h"
+
+#include <machine/types.h>
+#include <sys/disklabel.h>
+
+configure:10868: checking for openssl/hmac.h
+configure:10878: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10868: checking for openssl/evp.h
+configure:10878: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10868: checking for openssl/aes.h
+configure:10878: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10874:25: openssl/aes.h: No such file or directory
+configure: failed program was:
+#line 10873 "configure"
+#include "confdefs.h"
+#include <openssl/aes.h>
+configure:10868: checking for openssl/des.h
+configure:10878: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:10908: checking for lpstat
+configure:10953: checking for cgetnext
+configure:10981: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+/tmp/ccIc3OdA.o: In function `main':
+/myviews/yentran_sview_temp/CommEngine/userapps/opensource/net-snmp/net-snmp-5.0.8/configure:10975: undefined reference to `cgetnext'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 10958 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char cgetnext(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char cgetnext();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_cgetnext) || defined (__stub___cgetnext)
+choke me
+#else
+cgetnext();
+#endif
+
+; return 0; }
+configure:11013: checking for authentication support
+configure:11061: checking for off_t
+configure:11094: checking for pid_t
+configure:11127: checking whether time.h and sys/time.h may both be included
+configure:11141: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure:11163: checking for socklen_t
+configure:11200: checking for in_addr_t
+configure:11237: checking for correct flags to ps
+configure:11283: checking whether byte ordering is bigendian
+configure:11301: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure:11316: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:11311: `not' undeclared (first use in this function)
+configure:11311: (Each undeclared identifier is reported only once
+configure:11311: for each function it appears in.)
+configure:11311: parse error before `big'
+configure: failed program was:
+#line 11305 "configure"
+#include "confdefs.h"
+#include <sys/types.h>
+#include <sys/param.h>
+int main() {
+
+#if BYTE_ORDER != BIG_ENDIAN
+ not big endian
+#endif
+; return 0; }
+configure:11377: checking for working alloca.h
+configure:11389: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:11410: checking for alloca
+configure:11443: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:11610: checking whether gcc needs -traditional
+configure:11656: checking for 8-bit clean memcmp
+configure:11674: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:11692: checking return type of signal handlers
+configure:11714: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure:11734: checking for getmntent in -lsun
+configure:11753: gcc -o conftest -g -O2 -Dlinux   conftest.c -lsun  -lcrypto -lelf -lm  1>&5
+/usr/bin/ld: cannot find -lsun
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 11742 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char getmntent();
+
+int main() {
+getmntent()
+; return 0; }
+configure:11772: checking for getmntent in -lseq
+configure:11791: gcc -o conftest -g -O2 -Dlinux   conftest.c -lseq  -lcrypto -lelf -lm  1>&5
+/usr/bin/ld: cannot find -lseq
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 11780 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char getmntent();
+
+int main() {
+getmntent()
+; return 0; }
+configure:11810: checking for getmntent in -lgen
+configure:11829: gcc -o conftest -g -O2 -Dlinux   conftest.c -lgen  -lcrypto -lelf -lm  1>&5
+/usr/bin/ld: cannot find -lgen
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 11818 "configure"
+#include "confdefs.h"
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char getmntent();
+
+int main() {
+getmntent()
+; return 0; }
+configure:11854: checking for getmntent
+configure:11882: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:11907: checking for setmntent
+configure:11935: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:11907: checking for gethostname
+configure:11935: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:11907: checking for uname
+configure:11935: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:11907: checking for gettimeofday
+configure:11935: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:11907: checking for select
+configure:11935: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:11907: checking for socket
+configure:11935: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:11907: checking for strtol
+configure:11935: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:11907: checking for strtoul
+configure:11935: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:11962: checking for strchr
+configure:11990: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:11962: checking for strdup
+configure:11990: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:11962: checking for memcpy
+configure:11990: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:11974: warning: conflicting types for built-in function `memcpy'
+configure:11962: checking for memmove
+configure:11990: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:11962: checking for index
+configure:11990: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:11962: checking for bcopy
+configure:11990: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:11962: checking for strcasestr
+configure:11990: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:11962: checking for regcomp
+configure:11990: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12017: checking for signal
+configure:12045: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12017: checking for setsid
+configure:12045: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12017: checking for sigset
+configure:12045: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12017: checking for sigblock
+configure:12045: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12017: checking for sighold
+configure:12045: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12017: checking for strerror
+configure:12045: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12017: checking for setenv
+configure:12045: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12017: checking for vsnprintf
+configure:12045: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12017: checking for snprintf
+configure:12045: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12072: checking for sigaction
+configure:12100: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12127: checking for snprintf
+configure:12127: checking for strtoul
+configure:12182: checking for random
+configure:12210: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12182: checking for lrand48
+configure:12210: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12182: checking for rand
+configure:12210: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12237: checking for execv
+configure:12265: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12237: checking for system
+configure:12265: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12237: checking for fork
+configure:12265: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12237: checking for getpid
+configure:12265: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12237: checking for strncasecmp
+configure:12265: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12237: checking for sigalrm
+configure:12265: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+/tmp/ccPl3dIX.o: In function `main':
+/myviews/yentran_sview_temp/CommEngine/userapps/opensource/net-snmp/net-snmp-5.0.8/configure:12259: undefined reference to `sigalrm'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 12242 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char sigalrm(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char sigalrm();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_sigalrm) || defined (__stub___sigalrm)
+choke me
+#else
+sigalrm();
+#endif
+
+; return 0; }
+configure:12353: checking for getloadavg
+configure:12381: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12408: checking for getaddrinfo
+configure:12436: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12408: checking for getipnodebyname
+configure:12436: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+/tmp/ccPevBji.o: In function `main':
+/myviews/yentran_sview_temp/CommEngine/userapps/opensource/net-snmp/net-snmp-5.0.8/configure:12430: undefined reference to `getipnodebyname'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 12413 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char getipnodebyname(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char getipnodebyname();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_getipnodebyname) || defined (__stub___getipnodebyname)
+choke me
+#else
+getipnodebyname();
+#endif
+
+; return 0; }
+configure:12463: checking for statvfs
+configure:12491: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12463: checking for statfs
+configure:12491: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12518: checking for getdtablesize
+configure:12546: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12573: checking for getfsstat
+configure:12601: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+/tmp/ccFE7hlx.o: In function `main':
+/myviews/yentran_sview_temp/CommEngine/userapps/opensource/net-snmp/net-snmp-5.0.8/configure:12595: undefined reference to `getfsstat'
+collect2: ld returned 1 exit status
+configure: failed program was:
+#line 12578 "configure"
+#include "confdefs.h"
+/* System header to define __stub macros and hopefully few prototypes,
+    which can conflict with char getfsstat(); below.  */
+#include <assert.h>
+/* Override any gcc2 internal prototype to avoid an error.  */
+/* We use char because int might match the return type of a gcc2
+    builtin and then its argument prototype would still apply.  */
+char getfsstat();
+
+int main() {
+
+/* The GNU C library defines this for functions which it implements
+    to always fail with ENOSYS.  Some functions are actually named
+    something starting with __ and the normal name is an alias.  */
+#if defined (__stub_getfsstat) || defined (__stub___getfsstat)
+choke me
+#else
+getfsstat();
+#endif
+
+; return 0; }
+configure:12628: checking for usleep
+configure:12656: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12683: checking for setlocale
+configure:12711: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12738: checking for tcgetattr
+configure:12766: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12793: checking for if_nameindex
+configure:12821: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12793: checking for if_freenameindex
+configure:12821: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12848: checking for getpagesize
+configure:12876: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12903: checking for mkstemp
+configure:12931: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12958: checking for getpwnam
+configure:12986: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12958: checking for getgrnam
+configure:12986: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12958: checking for setgid
+configure:12986: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12958: checking for setuid
+configure:12986: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:12958: checking for setgroups
+configure:12986: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:13013: checking for setitimer
+configure:13041: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure:13067: checking for SIOCGIFADDR in sys/ioctl.h
+configure:13105: checking for two-argument statfs with struct fs_data (Ultrix)
+configure:13134: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure: In function `main':
+configure:13127: storage size of `fsd' isn't known
+configure: failed program was:
+#line 13113 "configure"
+#include "confdefs.h"
+
+#ifdef HAVE_SYS_PARAM_H
+#include <sys/param.h>
+#endif
+#include <sys/types.h>
+#ifdef HAVE_SYS_MOUNT_H
+#include <sys/mount.h>
+#endif
+#ifdef HAVE_SYS_FS_TYPES_H
+#include <sys/fs_types.h>
+#endif
+main ()
+{
+struct fs_data fsd;
+/* Ultrix's statfs returns 1 for success,
+   0 for not mounted, -1 for failure.  */
+exit (statfs (".", &fsd) != 1);
+}
+configure:13157: checking if __FUNCTION__ is defined
+configure:13172: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure:13201: checking for sigaction.sa_sigaction
+configure:13232: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure:13266: checking for sockaddr.sa_len
+configure:13301: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:13296: structure has no member named `sa_len'
+configure: failed program was:
+#line 13279 "configure"
+#include "confdefs.h"
+
+
+#ifdef HAVE_SYS_PARAM_H
+#include <sys/param.h>
+#endif
+#include <sys/types.h>
+#define KERNEL
+#define _KERNEL
+#include <sys/socket.h>
+#undef KERNEL
+#undef _KERNEL
+
+
+int main() {
+
+struct sockaddr testit; 
+testit.sa_len ;
+
+; return 0; }
+configure:13335: checking for sockaddr.sa_union.sa_generic.sa_family2
+configure:13370: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:13365: structure has no member named `sa_union'
+configure: failed program was:
+#line 13348 "configure"
+#include "confdefs.h"
+
+
+#ifdef HAVE_SYS_PARAM_H
+#include <sys/param.h>
+#endif
+#include <sys/types.h>
+#define KERNEL
+#define _KERNEL
+#include <sys/socket.h>
+#undef KERNEL
+#undef _KERNEL
+
+
+int main() {
+
+struct sockaddr testit; 
+testit.sa_union.sa_generic.sa_family2 ;
+
+; return 0; }
+configure:13404: checking for rtentry.rt_dst
+configure:13440: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure:13467: checking type of rtentry structure
+configure:13501: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:13495: structure has no member named `rt_nodes'
+configure: failed program was:
+#line 13474 "configure"
+#include "confdefs.h"
+
+#ifdef HAVE_SYS_PARAM_H
+#include <sys/param.h>
+#endif
+#include <sys/types.h>
+#define KERNEL
+#define _KERNEL
+#include <sys/socket.h>
+#undef KERNEL
+#undef _KERNEL
+#include <net/route.h>
+
+int main() {
+
+
+#ifndef STRUCT_RTENTRY_HAS_RT_DST
+#define rt_dst rt_nodes->rn_key
+#endif
+
+  struct rtentry rt; 
+  rt.rt_nodes[0].rn_flags = 1;
+  rt.rt_dst;
+  
+; return 0; }
+configure:13533: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:13528: structure has no member named `rt_hash'
+configure: failed program was:
+#line 13512 "configure"
+#include "confdefs.h"
+
+#ifdef HAVE_SYS_PARAM_H
+#include <sys/param.h>
+#endif
+#include <sys/types.h>
+#define KERNEL
+#define _KERNEL
+#include <sys/socket.h>
+#undef KERNEL
+#undef _KERNEL
+#include <net/route.h>
+
+int main() {
+
+struct rtentry rt; 
+rt.rt_hash;
+
+; return 0; }
+configure:13562: checking for struct rtentry
+configure:13670: checking for rtentry.rt_unit
+configure:13706: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:13701: structure has no member named `rt_unit'
+configure: failed program was:
+#line 13683 "configure"
+#include "confdefs.h"
+
+
+#ifdef HAVE_SYS_PARAM_H
+#include <sys/param.h>
+#endif
+#include <sys/types.h>
+#define KERNEL
+#define _KERNEL
+#include <sys/socket.h>
+#undef KERNEL
+#undef _KERNEL
+#include <net/route.h>
+
+
+int main() {
+
+struct rtentry testit; 
+testit.rt_unit = 0;
+
+; return 0; }
+configure:13740: checking for rtentry.rt_refcnt
+configure:13776: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:13771: structure has no member named `rt_refcnt'
+configure: failed program was:
+#line 13753 "configure"
+#include "confdefs.h"
+
+
+#ifdef HAVE_SYS_PARAM_H
+#include <sys/param.h>
+#endif
+#include <sys/types.h>
+#define KERNEL
+#define _KERNEL
+#include <sys/socket.h>
+#undef KERNEL
+#undef _KERNEL
+#include <net/route.h>
+
+
+int main() {
+
+struct rtentry testit; 
+testit.rt_refcnt = 0;
+
+; return 0; }
+configure:13810: checking for rtentry.rt_hash
+configure:13846: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:13841: structure has no member named `rt_hash'
+configure: failed program was:
+#line 13823 "configure"
+#include "confdefs.h"
+
+
+#ifdef HAVE_SYS_PARAM_H
+#include <sys/param.h>
+#endif
+#include <sys/types.h>
+#define KERNEL
+#define _KERNEL
+#include <sys/socket.h>
+#undef KERNEL
+#undef _KERNEL
+#include <net/route.h>
+
+
+int main() {
+
+struct rtentry testit; 
+testit.rt_hash = 0;
+
+; return 0; }
+configure:13880: checking for rtentry.rt_use
+configure:13916: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:13911: structure has no member named `rt_use'
+configure: failed program was:
+#line 13893 "configure"
+#include "confdefs.h"
+
+
+#ifdef HAVE_SYS_PARAM_H
+#include <sys/param.h>
+#endif
+#include <sys/types.h>
+#define KERNEL
+#define _KERNEL
+#include <sys/socket.h>
+#undef KERNEL
+#undef _KERNEL
+#include <net/route.h>
+
+
+int main() {
+
+struct rtentry testit; 
+testit.rt_use = 0;
+
+; return 0; }
+configure:13950: checking for tcpstat.tcp_rcvmemdrop
+configure:13988: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:13982: storage size of `testit' isn't known
+configure: failed program was:
+#line 13963 "configure"
+#include "confdefs.h"
+
+
+#ifdef HAVE_SYS_PARAM_H
+#include <sys/param.h>
+#endif
+#include <sys/types.h>
+#include <netinet/tcp.h>
+#ifdef HAVE_NETINET_TCP_TIMER_H
+#include <netinet/tcp_timer.h>
+#endif
+
+#ifdef HAVE_NETINET_TCP_VAR_H
+#include <netinet/tcp_var.h>
+#endif
+
+
+int main() {
+
+struct tcpstat testit; 
+testit.tcp_rcvmemdrop = 0;
+
+; return 0; }
+configure:14023: checking for ifnet.if_mtu
+configure:14058: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:14052: storage size of `testit' isn't known
+configure: failed program was:
+#line 14036 "configure"
+#include "confdefs.h"
+
+
+#ifdef HAVE_SYS_PARAM_H
+#include <sys/param.h>
+#endif
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <net/if.h>
+#ifdef HAVE_NET_IF_VAR_H
+#include <net/if_var.h>
+#endif
+
+
+int main() {
+
+struct ifnet testit; 
+testit.if_mtu = 0;
+
+; return 0; }
+configure:14086: checking if _KERNEL needs to be defined for if_mtu
+configure:14119: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:14113: storage size of `testit' isn't known
+configure: failed program was:
+#line 14095 "configure"
+#include "confdefs.h"
+
+#define _KERNEL 1
+#ifdef HAVE_SYS_PARAM_H
+#include <sys/param.h>
+#endif
+#include <sys/types.h>
+#include <sys/socket.h>
+#ifdef HAVE_SYS_TIME_H
+#include <sys/time.h>
+#endif
+#include <net/if.h>
+#ifdef HAVE_NET_IF_VAR_H
+#include <net/if_var.h>
+#endif
+
+int main() {
+
+struct ifnet testit;
+testit.if_mtu = 0;
+
+; return 0; }
+configure:14151: checking for ifaddr.ifa_next
+configure:14192: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure:14227: checking for ifnet.if_baudrate
+configure:14300: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:14295: structure has no member named `if_baudrate'
+configure: failed program was:
+#line 14240 "configure"
+#include "confdefs.h"
+
+
+#ifdef IFNET_NEEDS_KERNEL
+#define _KERNEL 1
+#endif
+#include <sys/types.h>
+#include <sys/socket.h>
+#ifdef HAVE_SYS_TIME_H
+#include <sys/time.h>
+#endif
+#include <net/if.h>
+#ifdef HAVE_NET_IF_VAR_H
+#include <net/if_var.h>
+#endif
+#ifdef HAVE_SYS_QUEUE_H
+#include <sys/queue.h>
+#endif
+#ifdef linux
+struct ifnet {
+	char	*if_name;		/* name, e.g. "en" or "lo" */
+	short	if_unit;		/* sub-unit for lower level driver */
+	short	if_mtu;			/* maximum transmission unit */
+	short	if_flags;		/* up/down, broadcast, etc. */
+	int	if_metric;		/* routing metric (external only) */
+	char    if_hwaddr [6];		/* ethernet address */
+	int	if_type;		/* interface type: 1=generic,
+					   28=slip, ether=6, loopback=24 */
+	int	if_speed;		/* interface speed: in bits/sec */
+
+	struct sockaddr if_addr;	/* interface's address */
+	struct sockaddr ifu_broadaddr;	/* broadcast address */
+	struct sockaddr ia_subnetmask; 	/* interface's mask */
+
+	struct	ifqueue {
+		int	ifq_len;
+		int	ifq_drops;
+	} if_snd;			/* output queue */
+	int	if_ibytes;		/* octets received on interface */
+	int	if_ipackets;		/* packets received on interface */
+	int	if_ierrors;		/* input errors on interface */
+        int     if_iqdrops;             /* input queue overruns */
+	int	if_obytes;		/* octets sent on interface */
+	int	if_opackets;		/* packets sent on interface */
+	int	if_oerrors;		/* output errors on interface */
+	int	if_collisions;		/* collisions on csma interfaces */
+/* end statistics */
+	struct	ifnet *if_next;
+};
+#endif
+
+
+int main() {
+
+struct ifnet testit; 
+testit.if_baudrate = 0;
+
+; return 0; }
+configure:14335: checking for ifnet.if_baudrate.ifs_value
+configure:14408: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:14403: structure has no member named `if_baudrate'
+configure: failed program was:
+#line 14348 "configure"
+#include "confdefs.h"
+
+
+#ifdef IFNET_NEEDS_KERNEL
+#define _KERNEL 1
+#endif
+#include <sys/types.h>
+#include <sys/socket.h>
+#ifdef HAVE_SYS_TIME_H
+#include <sys/time.h>
+#endif
+#include <net/if.h>
+#ifdef HAVE_NET_IF_VAR_H
+#include <net/if_var.h>
+#endif
+#ifdef HAVE_SYS_QUEUE_H
+#include <sys/queue.h>
+#endif
+#ifdef linux
+struct ifnet {
+	char	*if_name;		/* name, e.g. "en" or "lo" */
+	short	if_unit;		/* sub-unit for lower level driver */
+	short	if_mtu;			/* maximum transmission unit */
+	short	if_flags;		/* up/down, broadcast, etc. */
+	int	if_metric;		/* routing metric (external only) */
+	char    if_hwaddr [6];		/* ethernet address */
+	int	if_type;		/* interface type: 1=generic,
+					   28=slip, ether=6, loopback=24 */
+	int	if_speed;		/* interface speed: in bits/sec */
+
+	struct sockaddr if_addr;	/* interface's address */
+	struct sockaddr ifu_broadaddr;	/* broadcast address */
+	struct sockaddr ia_subnetmask; 	/* interface's mask */
+
+	struct	ifqueue {
+		int	ifq_len;
+		int	ifq_drops;
+	} if_snd;			/* output queue */
+	int	if_ibytes;		/* octets received on interface */
+	int	if_ipackets;		/* packets received on interface */
+	int	if_ierrors;		/* input errors on interface */
+        int     if_iqdrops;             /* input queue overruns */
+	int	if_obytes;		/* octets sent on interface */
+	int	if_opackets;		/* packets sent on interface */
+	int	if_oerrors;		/* output errors on interface */
+	int	if_collisions;		/* collisions on csma interfaces */
+/* end statistics */
+	struct	ifnet *if_next;
+};
+#endif
+
+
+int main() {
+
+struct ifnet testit; 
+testit.if_baudrate.ifs_value = 0;
+
+; return 0; }
+configure:14443: checking for ifnet.if_speed
+configure:14516: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure:14551: checking for ifnet.if_type
+configure:14624: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure:14659: checking for ifnet.if_imcasts
+configure:14732: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:14727: structure has no member named `if_imcasts'
+configure: failed program was:
+#line 14672 "configure"
+#include "confdefs.h"
+
+
+#ifdef IFNET_NEEDS_KERNEL
+#define _KERNEL 1
+#endif
+#include <sys/types.h>
+#include <sys/socket.h>
+#ifdef HAVE_SYS_TIME_H
+#include <sys/time.h>
+#endif
+#include <net/if.h>
+#ifdef HAVE_NET_IF_VAR_H
+#include <net/if_var.h>
+#endif
+#ifdef HAVE_SYS_QUEUE_H
+#include <sys/queue.h>
+#endif
+#ifdef linux
+struct ifnet {
+	char	*if_name;		/* name, e.g. "en" or "lo" */
+	short	if_unit;		/* sub-unit for lower level driver */
+	short	if_mtu;			/* maximum transmission unit */
+	short	if_flags;		/* up/down, broadcast, etc. */
+	int	if_metric;		/* routing metric (external only) */
+	char    if_hwaddr [6];		/* ethernet address */
+	int	if_type;		/* interface type: 1=generic,
+					   28=slip, ether=6, loopback=24 */
+	int	if_speed;		/* interface speed: in bits/sec */
+
+	struct sockaddr if_addr;	/* interface's address */
+	struct sockaddr ifu_broadaddr;	/* broadcast address */
+	struct sockaddr ia_subnetmask; 	/* interface's mask */
+
+	struct	ifqueue {
+		int	ifq_len;
+		int	ifq_drops;
+	} if_snd;			/* output queue */
+	int	if_ibytes;		/* octets received on interface */
+	int	if_ipackets;		/* packets received on interface */
+	int	if_ierrors;		/* input errors on interface */
+        int     if_iqdrops;             /* input queue overruns */
+	int	if_obytes;		/* octets sent on interface */
+	int	if_opackets;		/* packets sent on interface */
+	int	if_oerrors;		/* output errors on interface */
+	int	if_collisions;		/* collisions on csma interfaces */
+/* end statistics */
+	struct	ifnet *if_next;
+};
+#endif
+
+
+int main() {
+
+struct ifnet testit; 
+testit.if_imcasts = 0;
+
+; return 0; }
+configure:14767: checking for ifnet.if_iqdrops
+configure:14840: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure:14875: checking for ifnet.if_noproto
+configure:14948: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:14943: structure has no member named `if_noproto'
+configure: failed program was:
+#line 14888 "configure"
+#include "confdefs.h"
+
+
+#ifdef IFNET_NEEDS_KERNEL
+#define _KERNEL 1
+#endif
+#include <sys/types.h>
+#include <sys/socket.h>
+#ifdef HAVE_SYS_TIME_H
+#include <sys/time.h>
+#endif
+#include <net/if.h>
+#ifdef HAVE_NET_IF_VAR_H
+#include <net/if_var.h>
+#endif
+#ifdef HAVE_SYS_QUEUE_H
+#include <sys/queue.h>
+#endif
+#ifdef linux
+struct ifnet {
+	char	*if_name;		/* name, e.g. "en" or "lo" */
+	short	if_unit;		/* sub-unit for lower level driver */
+	short	if_mtu;			/* maximum transmission unit */
+	short	if_flags;		/* up/down, broadcast, etc. */
+	int	if_metric;		/* routing metric (external only) */
+	char    if_hwaddr [6];		/* ethernet address */
+	int	if_type;		/* interface type: 1=generic,
+					   28=slip, ether=6, loopback=24 */
+	int	if_speed;		/* interface speed: in bits/sec */
+
+	struct sockaddr if_addr;	/* interface's address */
+	struct sockaddr ifu_broadaddr;	/* broadcast address */
+	struct sockaddr ia_subnetmask; 	/* interface's mask */
+
+	struct	ifqueue {
+		int	ifq_len;
+		int	ifq_drops;
+	} if_snd;			/* output queue */
+	int	if_ibytes;		/* octets received on interface */
+	int	if_ipackets;		/* packets received on interface */
+	int	if_ierrors;		/* input errors on interface */
+        int     if_iqdrops;             /* input queue overruns */
+	int	if_obytes;		/* octets sent on interface */
+	int	if_opackets;		/* packets sent on interface */
+	int	if_oerrors;		/* output errors on interface */
+	int	if_collisions;		/* collisions on csma interfaces */
+/* end statistics */
+	struct	ifnet *if_next;
+};
+#endif
+
+
+int main() {
+
+struct ifnet testit; 
+testit.if_noproto = 0;
+
+; return 0; }
+configure:14983: checking for ifnet.if_omcasts
+configure:15056: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:15051: structure has no member named `if_omcasts'
+configure: failed program was:
+#line 14996 "configure"
+#include "confdefs.h"
+
+
+#ifdef IFNET_NEEDS_KERNEL
+#define _KERNEL 1
+#endif
+#include <sys/types.h>
+#include <sys/socket.h>
+#ifdef HAVE_SYS_TIME_H
+#include <sys/time.h>
+#endif
+#include <net/if.h>
+#ifdef HAVE_NET_IF_VAR_H
+#include <net/if_var.h>
+#endif
+#ifdef HAVE_SYS_QUEUE_H
+#include <sys/queue.h>
+#endif
+#ifdef linux
+struct ifnet {
+	char	*if_name;		/* name, e.g. "en" or "lo" */
+	short	if_unit;		/* sub-unit for lower level driver */
+	short	if_mtu;			/* maximum transmission unit */
+	short	if_flags;		/* up/down, broadcast, etc. */
+	int	if_metric;		/* routing metric (external only) */
+	char    if_hwaddr [6];		/* ethernet address */
+	int	if_type;		/* interface type: 1=generic,
+					   28=slip, ether=6, loopback=24 */
+	int	if_speed;		/* interface speed: in bits/sec */
+
+	struct sockaddr if_addr;	/* interface's address */
+	struct sockaddr ifu_broadaddr;	/* broadcast address */
+	struct sockaddr ia_subnetmask; 	/* interface's mask */
+
+	struct	ifqueue {
+		int	ifq_len;
+		int	ifq_drops;
+	} if_snd;			/* output queue */
+	int	if_ibytes;		/* octets received on interface */
+	int	if_ipackets;		/* packets received on interface */
+	int	if_ierrors;		/* input errors on interface */
+        int     if_iqdrops;             /* input queue overruns */
+	int	if_obytes;		/* octets sent on interface */
+	int	if_opackets;		/* packets sent on interface */
+	int	if_oerrors;		/* output errors on interface */
+	int	if_collisions;		/* collisions on csma interfaces */
+/* end statistics */
+	struct	ifnet *if_next;
+};
+#endif
+
+
+int main() {
+
+struct ifnet testit; 
+testit.if_omcasts = 0;
+
+; return 0; }
+configure:15091: checking for ifnet.if_xname
+configure:15164: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:15159: structure has no member named `if_xname'
+configure: failed program was:
+#line 15104 "configure"
+#include "confdefs.h"
+
+
+#ifdef IFNET_NEEDS_KERNEL
+#define _KERNEL 1
+#endif
+#include <sys/types.h>
+#include <sys/socket.h>
+#ifdef HAVE_SYS_TIME_H
+#include <sys/time.h>
+#endif
+#include <net/if.h>
+#ifdef HAVE_NET_IF_VAR_H
+#include <net/if_var.h>
+#endif
+#ifdef HAVE_SYS_QUEUE_H
+#include <sys/queue.h>
+#endif
+#ifdef linux
+struct ifnet {
+	char	*if_name;		/* name, e.g. "en" or "lo" */
+	short	if_unit;		/* sub-unit for lower level driver */
+	short	if_mtu;			/* maximum transmission unit */
+	short	if_flags;		/* up/down, broadcast, etc. */
+	int	if_metric;		/* routing metric (external only) */
+	char    if_hwaddr [6];		/* ethernet address */
+	int	if_type;		/* interface type: 1=generic,
+					   28=slip, ether=6, loopback=24 */
+	int	if_speed;		/* interface speed: in bits/sec */
+
+	struct sockaddr if_addr;	/* interface's address */
+	struct sockaddr ifu_broadaddr;	/* broadcast address */
+	struct sockaddr ia_subnetmask; 	/* interface's mask */
+
+	struct	ifqueue {
+		int	ifq_len;
+		int	ifq_drops;
+	} if_snd;			/* output queue */
+	int	if_ibytes;		/* octets received on interface */
+	int	if_ipackets;		/* packets received on interface */
+	int	if_ierrors;		/* input errors on interface */
+        int     if_iqdrops;             /* input queue overruns */
+	int	if_obytes;		/* octets sent on interface */
+	int	if_opackets;		/* packets sent on interface */
+	int	if_oerrors;		/* output errors on interface */
+	int	if_collisions;		/* collisions on csma interfaces */
+/* end statistics */
+	struct	ifnet *if_next;
+};
+#endif
+
+
+int main() {
+
+struct ifnet testit; 
+testit.if_xname ;
+
+; return 0; }
+configure:15199: checking for ifnet.if_lastchange.tv_sec
+configure:15272: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:15267: structure has no member named `if_lastchange'
+configure: failed program was:
+#line 15212 "configure"
+#include "confdefs.h"
+
+
+#ifdef IFNET_NEEDS_KERNEL
+#define _KERNEL 1
+#endif
+#include <sys/types.h>
+#include <sys/socket.h>
+#ifdef HAVE_SYS_TIME_H
+#include <sys/time.h>
+#endif
+#include <net/if.h>
+#ifdef HAVE_NET_IF_VAR_H
+#include <net/if_var.h>
+#endif
+#ifdef HAVE_SYS_QUEUE_H
+#include <sys/queue.h>
+#endif
+#ifdef linux
+struct ifnet {
+	char	*if_name;		/* name, e.g. "en" or "lo" */
+	short	if_unit;		/* sub-unit for lower level driver */
+	short	if_mtu;			/* maximum transmission unit */
+	short	if_flags;		/* up/down, broadcast, etc. */
+	int	if_metric;		/* routing metric (external only) */
+	char    if_hwaddr [6];		/* ethernet address */
+	int	if_type;		/* interface type: 1=generic,
+					   28=slip, ether=6, loopback=24 */
+	int	if_speed;		/* interface speed: in bits/sec */
+
+	struct sockaddr if_addr;	/* interface's address */
+	struct sockaddr ifu_broadaddr;	/* broadcast address */
+	struct sockaddr ia_subnetmask; 	/* interface's mask */
+
+	struct	ifqueue {
+		int	ifq_len;
+		int	ifq_drops;
+	} if_snd;			/* output queue */
+	int	if_ibytes;		/* octets received on interface */
+	int	if_ipackets;		/* packets received on interface */
+	int	if_ierrors;		/* input errors on interface */
+        int     if_iqdrops;             /* input queue overruns */
+	int	if_obytes;		/* octets sent on interface */
+	int	if_opackets;		/* packets sent on interface */
+	int	if_oerrors;		/* output errors on interface */
+	int	if_collisions;		/* collisions on csma interfaces */
+/* end statistics */
+	struct	ifnet *if_next;
+};
+#endif
+
+
+int main() {
+
+struct ifnet testit; 
+testit.if_lastchange.tv_sec = 0;
+
+; return 0; }
+configure:15307: checking for ifnet.if_obytes
+configure:15380: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure:15415: checking for ifnet.if_ibytes
+configure:15488: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure:15523: checking for ifnet.if_addrlist
+configure:15596: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:15591: structure has no member named `if_addrlist'
+configure: failed program was:
+#line 15536 "configure"
+#include "confdefs.h"
+
+
+#ifdef IFNET_NEEDS_KERNEL
+#define _KERNEL 1
+#endif
+#include <sys/types.h>
+#include <sys/socket.h>
+#ifdef HAVE_SYS_TIME_H
+#include <sys/time.h>
+#endif
+#include <net/if.h>
+#ifdef HAVE_NET_IF_VAR_H
+#include <net/if_var.h>
+#endif
+#ifdef HAVE_SYS_QUEUE_H
+#include <sys/queue.h>
+#endif
+#ifdef linux
+struct ifnet {
+	char	*if_name;		/* name, e.g. "en" or "lo" */
+	short	if_unit;		/* sub-unit for lower level driver */
+	short	if_mtu;			/* maximum transmission unit */
+	short	if_flags;		/* up/down, broadcast, etc. */
+	int	if_metric;		/* routing metric (external only) */
+	char    if_hwaddr [6];		/* ethernet address */
+	int	if_type;		/* interface type: 1=generic,
+					   28=slip, ether=6, loopback=24 */
+	int	if_speed;		/* interface speed: in bits/sec */
+
+	struct sockaddr if_addr;	/* interface's address */
+	struct sockaddr ifu_broadaddr;	/* broadcast address */
+	struct sockaddr ia_subnetmask; 	/* interface's mask */
+
+	struct	ifqueue {
+		int	ifq_len;
+		int	ifq_drops;
+	} if_snd;			/* output queue */
+	int	if_ibytes;		/* octets received on interface */
+	int	if_ipackets;		/* packets received on interface */
+	int	if_ierrors;		/* input errors on interface */
+        int     if_iqdrops;             /* input queue overruns */
+	int	if_obytes;		/* octets sent on interface */
+	int	if_opackets;		/* packets sent on interface */
+	int	if_oerrors;		/* output errors on interface */
+	int	if_collisions;		/* collisions on csma interfaces */
+/* end statistics */
+	struct	ifnet *if_next;
+};
+#endif
+
+
+int main() {
+
+struct ifnet testit; 
+testit.if_addrlist = 0;
+
+; return 0; }
+configure:15631: checking for ifnet.if_addrhead.tqh_first
+configure:15704: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:15699: structure has no member named `if_addrhead'
+configure: failed program was:
+#line 15644 "configure"
+#include "confdefs.h"
+
+
+#ifdef IFNET_NEEDS_KERNEL
+#define _KERNEL 1
+#endif
+#include <sys/types.h>
+#include <sys/socket.h>
+#ifdef HAVE_SYS_TIME_H
+#include <sys/time.h>
+#endif
+#include <net/if.h>
+#ifdef HAVE_NET_IF_VAR_H
+#include <net/if_var.h>
+#endif
+#ifdef HAVE_SYS_QUEUE_H
+#include <sys/queue.h>
+#endif
+#ifdef linux
+struct ifnet {
+	char	*if_name;		/* name, e.g. "en" or "lo" */
+	short	if_unit;		/* sub-unit for lower level driver */
+	short	if_mtu;			/* maximum transmission unit */
+	short	if_flags;		/* up/down, broadcast, etc. */
+	int	if_metric;		/* routing metric (external only) */
+	char    if_hwaddr [6];		/* ethernet address */
+	int	if_type;		/* interface type: 1=generic,
+					   28=slip, ether=6, loopback=24 */
+	int	if_speed;		/* interface speed: in bits/sec */
+
+	struct sockaddr if_addr;	/* interface's address */
+	struct sockaddr ifu_broadaddr;	/* broadcast address */
+	struct sockaddr ia_subnetmask; 	/* interface's mask */
+
+	struct	ifqueue {
+		int	ifq_len;
+		int	ifq_drops;
+	} if_snd;			/* output queue */
+	int	if_ibytes;		/* octets received on interface */
+	int	if_ipackets;		/* packets received on interface */
+	int	if_ierrors;		/* input errors on interface */
+        int     if_iqdrops;             /* input queue overruns */
+	int	if_obytes;		/* octets sent on interface */
+	int	if_opackets;		/* packets sent on interface */
+	int	if_oerrors;		/* output errors on interface */
+	int	if_collisions;		/* collisions on csma interfaces */
+/* end statistics */
+	struct	ifnet *if_next;
+};
+#endif
+
+
+int main() {
+
+struct ifnet testit; 
+testit.if_addrhead.tqh_first = 0;
+
+; return 0; }
+configure:15739: checking for udpstat.udps_discard
+configure:15778: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:15772: storage size of `testit' isn't known
+configure: failed program was:
+#line 15752 "configure"
+#include "confdefs.h"
+
+
+#include <sys/types.h>
+#if HAVE_NETINET_IN_H
+#include <netinet/in.h>
+#endif
+#if HAVE_NETINET_IP_VAR_H
+#include <netinet/ip_var.h>
+#endif
+#if HAVE_NETINET_UDP_H
+#include <netinet/udp.h>
+#endif
+#if HAVE_NETINET_UDP_VAR_H
+#include <netinet/udp_var.h>
+#endif
+
+
+int main() {
+
+struct udpstat testit; 
+testit.udps_discard = 0;
+
+; return 0; }
+configure:15812: checking for udpstat.udps_noport
+configure:15851: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:15845: storage size of `testit' isn't known
+configure: failed program was:
+#line 15825 "configure"
+#include "confdefs.h"
+
+
+#include <sys/types.h>
+#if HAVE_NETINET_IN_H
+#include <netinet/in.h>
+#endif
+#if HAVE_NETINET_IP_VAR_H
+#include <netinet/ip_var.h>
+#endif
+#if HAVE_NETINET_UDP_H
+#include <netinet/udp.h>
+#endif
+#if HAVE_NETINET_UDP_VAR_H
+#include <netinet/udp_var.h>
+#endif
+
+
+int main() {
+
+struct udpstat testit; 
+testit.udps_noport = 0;
+
+; return 0; }
+configure:15885: checking for udpstat.udps_noportbcast
+configure:15924: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:15918: storage size of `testit' isn't known
+configure: failed program was:
+#line 15898 "configure"
+#include "confdefs.h"
+
+
+#include <sys/types.h>
+#if HAVE_NETINET_IN_H
+#include <netinet/in.h>
+#endif
+#if HAVE_NETINET_IP_VAR_H
+#include <netinet/ip_var.h>
+#endif
+#if HAVE_NETINET_UDP_H
+#include <netinet/udp.h>
+#endif
+#if HAVE_NETINET_UDP_VAR_H
+#include <netinet/udp_var.h>
+#endif
+
+
+int main() {
+
+struct udpstat testit; 
+testit.udps_noportbcast = 0;
+
+; return 0; }
+configure:15958: checking for udpstat.udps_fullsock
+configure:15997: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:15991: storage size of `testit' isn't known
+configure: failed program was:
+#line 15971 "configure"
+#include "confdefs.h"
+
+
+#include <sys/types.h>
+#if HAVE_NETINET_IN_H
+#include <netinet/in.h>
+#endif
+#if HAVE_NETINET_IP_VAR_H
+#include <netinet/ip_var.h>
+#endif
+#if HAVE_NETINET_UDP_H
+#include <netinet/udp.h>
+#endif
+#if HAVE_NETINET_UDP_VAR_H
+#include <netinet/udp_var.h>
+#endif
+
+
+int main() {
+
+struct udpstat testit; 
+testit.udps_fullsock = 0;
+
+; return 0; }
+configure:16031: checking for arphd.at_next
+configure:16072: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:16066: storage size of `testit' isn't known
+configure: failed program was:
+#line 16044 "configure"
+#include "confdefs.h"
+
+
+#ifdef HAVE_SYS_PARAM_H
+#include <sys/param.h>
+#endif
+#include <sys/types.h>
+#include <sys/socket.h>
+#ifdef HAVE_SYS_TIME_H
+#include <sys/time.h>
+#endif
+#include <net/if.h>
+#if HAVE_NETINET_IN_H
+#include <netinet/in.h>
+#endif
+#if HAVE_NETINET_IF_ETHER_H
+#include <netinet/if_ether.h>
+#endif
+
+
+int main() {
+
+struct arphd testit; 
+testit.at_next = 0;
+
+; return 0; }
+configure:16106: checking for swdevt.sw_nblksenabled
+configure:16135: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:16129: storage size of `testit' isn't known
+configure: failed program was:
+#line 16119 "configure"
+#include "confdefs.h"
+
+
+#if HAVE_SYS_CONF_H
+#include <sys/conf.h>
+#endif
+
+
+int main() {
+
+struct swdevt testit; 
+testit.sw_nblksenabled = 0;
+
+; return 0; }
+configure:16169: checking for statvfs.f_frsize
+configure:16204: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure:16238: checking for statvfs.f_files
+configure:16273: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure:16307: checking for statfs.f_files
+configure:16346: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure:16380: checking for statfs.f_ffree
+configure:16419: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure:16453: checking for statfs.f_favail
+configure:16492: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:16487: structure has no member named `f_favail'
+configure: failed program was:
+#line 16466 "configure"
+#include "confdefs.h"
+
+
+#ifdef HAVE_SYS_STAT_H
+#include <sys/stat.h>
+#endif
+#if HAVE_SYS_STATFS_H
+#include <sys/statfs.h>
+#endif
+#ifdef HAVE_SYS_PARAM_H
+#include <sys/param.h>
+#include <sys/types.h>
+#endif
+#ifdef HAVE_SYS_MOUNT_H
+#include <sys/mount.h>
+#endif
+
+
+int main() {
+
+struct statfs testit; 
+testit.f_favail = 0;
+
+; return 0; }
+configure:16526: checking for nlist.n_value
+configure:16555: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:16549: storage size of `testit' isn't known
+configure: failed program was:
+#line 16539 "configure"
+#include "confdefs.h"
+
+
+#if HAVE_NLIST_H
+#include <nlist.h>
+#endif
+
+
+int main() {
+
+struct nlist testit; 
+testit.n_value = 0;
+
+; return 0; }
+configure:16589: checking for ipstat.ips_cantforward
+configure:16622: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:16616: storage size of `testit' isn't known
+configure: failed program was:
+#line 16602 "configure"
+#include "confdefs.h"
+
+
+#include <sys/types.h>
+#if HAVE_NETINET_IN_H
+#include <netinet/in.h>
+#endif
+#if HAVE_NETINET_IP_VAR_H
+#include <netinet/ip_var.h>
+#endif
+
+
+int main() {
+
+struct ipstat testit; 
+testit.ips_cantforward = 0;
+
+; return 0; }
+configure:16656: checking for ipstat.ips_cantfrag
+configure:16689: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:16683: storage size of `testit' isn't known
+configure: failed program was:
+#line 16669 "configure"
+#include "confdefs.h"
+
+
+#include <sys/types.h>
+#if HAVE_NETINET_IN_H
+#include <netinet/in.h>
+#endif
+#if HAVE_NETINET_IP_VAR_H
+#include <netinet/ip_var.h>
+#endif
+
+
+int main() {
+
+struct ipstat testit; 
+testit.ips_cantfrag = 0;
+
+; return 0; }
+configure:16723: checking for ipstat.ips_delivered
+configure:16756: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:16750: storage size of `testit' isn't known
+configure: failed program was:
+#line 16736 "configure"
+#include "confdefs.h"
+
+
+#include <sys/types.h>
+#if HAVE_NETINET_IN_H
+#include <netinet/in.h>
+#endif
+#if HAVE_NETINET_IP_VAR_H
+#include <netinet/ip_var.h>
+#endif
+
+
+int main() {
+
+struct ipstat testit; 
+testit.ips_delivered = 0;
+
+; return 0; }
+configure:16790: checking for ipstat.ips_fragdropped
+configure:16823: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:16817: storage size of `testit' isn't known
+configure: failed program was:
+#line 16803 "configure"
+#include "confdefs.h"
+
+
+#include <sys/types.h>
+#if HAVE_NETINET_IN_H
+#include <netinet/in.h>
+#endif
+#if HAVE_NETINET_IP_VAR_H
+#include <netinet/ip_var.h>
+#endif
+
+
+int main() {
+
+struct ipstat testit; 
+testit.ips_fragdropped = 0;
+
+; return 0; }
+configure:16857: checking for ipstat.ips_fragtimeout
+configure:16890: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:16884: storage size of `testit' isn't known
+configure: failed program was:
+#line 16870 "configure"
+#include "confdefs.h"
+
+
+#include <sys/types.h>
+#if HAVE_NETINET_IN_H
+#include <netinet/in.h>
+#endif
+#if HAVE_NETINET_IP_VAR_H
+#include <netinet/ip_var.h>
+#endif
+
+
+int main() {
+
+struct ipstat testit; 
+testit.ips_fragtimeout = 0;
+
+; return 0; }
+configure:16924: checking for ipstat.ips_localout
+configure:16957: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:16951: storage size of `testit' isn't known
+configure: failed program was:
+#line 16937 "configure"
+#include "confdefs.h"
+
+
+#include <sys/types.h>
+#if HAVE_NETINET_IN_H
+#include <netinet/in.h>
+#endif
+#if HAVE_NETINET_IP_VAR_H
+#include <netinet/ip_var.h>
+#endif
+
+
+int main() {
+
+struct ipstat testit; 
+testit.ips_localout = 0;
+
+; return 0; }
+configure:16991: checking for ipstat.ips_noproto
+configure:17024: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:17018: storage size of `testit' isn't known
+configure: failed program was:
+#line 17004 "configure"
+#include "confdefs.h"
+
+
+#include <sys/types.h>
+#if HAVE_NETINET_IN_H
+#include <netinet/in.h>
+#endif
+#if HAVE_NETINET_IP_VAR_H
+#include <netinet/ip_var.h>
+#endif
+
+
+int main() {
+
+struct ipstat testit; 
+testit.ips_noproto = 0;
+
+; return 0; }
+configure:17058: checking for ipstat.ips_noroute
+configure:17091: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:17085: storage size of `testit' isn't known
+configure: failed program was:
+#line 17071 "configure"
+#include "confdefs.h"
+
+
+#include <sys/types.h>
+#if HAVE_NETINET_IN_H
+#include <netinet/in.h>
+#endif
+#if HAVE_NETINET_IP_VAR_H
+#include <netinet/ip_var.h>
+#endif
+
+
+int main() {
+
+struct ipstat testit; 
+testit.ips_noroute = 0;
+
+; return 0; }
+configure:17125: checking for ipstat.ips_odropped
+configure:17158: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:17152: storage size of `testit' isn't known
+configure: failed program was:
+#line 17138 "configure"
+#include "confdefs.h"
+
+
+#include <sys/types.h>
+#if HAVE_NETINET_IN_H
+#include <netinet/in.h>
+#endif
+#if HAVE_NETINET_IP_VAR_H
+#include <netinet/ip_var.h>
+#endif
+
+
+int main() {
+
+struct ipstat testit; 
+testit.ips_odropped = 0;
+
+; return 0; }
+configure:17192: checking for ipstat.ips_ofragments
+configure:17225: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:17219: storage size of `testit' isn't known
+configure: failed program was:
+#line 17205 "configure"
+#include "confdefs.h"
+
+
+#include <sys/types.h>
+#if HAVE_NETINET_IN_H
+#include <netinet/in.h>
+#endif
+#if HAVE_NETINET_IP_VAR_H
+#include <netinet/ip_var.h>
+#endif
+
+
+int main() {
+
+struct ipstat testit; 
+testit.ips_ofragments = 0;
+
+; return 0; }
+configure:17259: checking for ipstat.ips_reassembled
+configure:17292: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure: In function `main':
+configure:17286: storage size of `testit' isn't known
+configure: failed program was:
+#line 17272 "configure"
+#include "confdefs.h"
+
+
+#include <sys/types.h>
+#if HAVE_NETINET_IN_H
+#include <netinet/in.h>
+#endif
+#if HAVE_NETINET_IP_VAR_H
+#include <netinet/ip_var.h>
+#endif
+
+
+int main() {
+
+struct ipstat testit; 
+testit.ips_reassembled = 0;
+
+; return 0; }
+configure:17327: checking for des_ks_struct.weak_key
+configure:17354: gcc -c -g -O2 -Dlinux  conftest.c 1>&5
+configure:17386: checking if sysctl can read kernel information
+configure:17432: gcc -o conftest -g -O2 -Dlinux   conftest.c -lcrypto -lelf -lm  1>&5
+configure: In function `main':
+configure:17420: `KERN_BOOTTIME' undeclared (first use in this function)
+configure:17420: (Each undeclared identifier is reported only once
+configure:17420: for each function it appears in.)
+configure:17423: warning: passing arg 6 of `sysctl' makes integer from pointer without a cast
+configure: failed program was:
+#line 17394 "configure"
+#include "confdefs.h"
+
+#if TIME_WITH_SYS_TIME
+# include <sys/time.h>
+# include <time.h>
+#else
+# if HAVE_SYS_TIME_H
+#  include <sys/time.h>
+# else
+#  include <time.h>
+# endif
+#endif
+#if HAVE_SYS_PARAM_H
+# include <sys/param.h>
+#endif
+#include <sys/types.h>
+#if HAVE_SYS_SYSCTL_H
+# include <sys/sysctl.h>
+#endif
+
+main() {
+  int                 mib[2];
+  size_t              len;
+  struct timeval boottime;
+  
+  mib[0] = CTL_KERN;
+  mib[1] = KERN_BOOTTIME;
+  
+  len = sizeof(boottime);
+  sysctl(mib, 2, &boottime, &len, NULL, NULL);
+  if (boottime.tv_sec != 0)
+    exit(0);
+  else
+    exit(1);
+}
+  
+configure:17457: checking whether TCP timers depend on `hz'
+configure:17463:31: netinet/tcp_timer.h: No such file or directory
+configure:17496: checking if you have run configure before
+configure:17560: checking Default version of SNMP to use
+configure:17634: checking System Contact Information
+configure:17694: checking System Location
+configure:17760: checking Location to write logfile
+configure:17833: checking Location to write persistent information

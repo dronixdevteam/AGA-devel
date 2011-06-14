@@ -1,0 +1,3 @@
+/sbin/dhcpc
+/usr/sbin/dhcpd
+/usr/bin/dumpleases

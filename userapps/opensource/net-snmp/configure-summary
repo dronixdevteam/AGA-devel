@@ -1,0 +1,7 @@
+  Net-SNMP Version:           5.0.8
+  Building for:               linux
+  Network transport support:  Callback Unix UDP
+  SNMPv3 Security Modules:    usm
+  Agent MIB code:             mibII notification utilities mibII
+  Authentication support:     MD5 SHA1
+  Encryption support:         DES

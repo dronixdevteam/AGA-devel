@@ -1,0 +1,149 @@
+.TH webcam_server 1 "(c) 2004 Donn Morrison"
+.SH NAME
+webcam_server - a server to stream webcam video or snapshots
+.SH SYNOPSIS
+.B webcam_server [-d device] [-p port] [-D[sh]] [-m[bsf]] [-c caption]
+.B               [-tf R,G,B] [-tb R,G,B] [-tt R,G,B] [-T x,y]
+.B               [-q jpeg_quality] [-g geometry] [-n] [-x]
+.B               [-G gamma] [-f[hv]] [-R rotation] [-r] [-s] [-v] [-l logfile]
+.B               [-a] [-h]
+.SH DESCRIPTION
+.B webcam_server
+is a server daemon that can stream frames from any video4linux device to
+remote clients running the provided applet or single frame snapshots
+running a web browser.
+.SH OPTIONS
+.TP
+\fB-a\fP
+Enable test mode - does not accept client connections and prints out the
+current frames per second (fps).
+.TP
+\fB-c\fP caption
+Set a caption to be displayed near the bottom of each captured frame.
+This string can be formatted for strftime() as follows:
+%Y - year, %m - month, %d - day, %H - hours, %M - minutes, %S - seconds
+.br
+The following variables are also formatted:
+.br
+%%V - webcam_server version, %%f - current frame, %%v - number of viewers
+.br
+example: webcam_server -c "my webcam %d/%m/%Y %H:%M:%S [version: %%V, %%f frames, %%v viewers]"
+.TP
+\fB-d\fP device
+Specify the video4linux supported device to capture frames from.
+.TP
+\fB-Dh, -Ds\fP
+Disable HTTP (\fBh\fP) snapshots or applet streams (\fBs\fP).
+.TP
+\fB-fh\fP, \fB-fv\fP
+Flip image horizontally (\fBh\fP) or vertically (\fBv\fP).
+.TP
+\fB-g\fP geometry
+Set the image capture size. The specified size must be supported by your
+video device.
+.br
+example: webcam_server -g 352x288
+.TP
+\fB-G\fP gamma
+Simple gamma correction. Adjusts image pixels by specified value. Valid range
+is -100 to 100.
+.TP
+\fB-h\fP
+Display help and command line parameters.
+.TP
+\fB-l\fP logfile
+Specify a file to print log messages.
+.TP
+\fB-mb, -ms, -mf\fP value
+Maximum bytes (\fBb\fP), seconds (\fBs\fP) or frames (\fBf\fP) per client
+connection.
+.TP
+\fB-n\fP
+Force use of read() system call. For some devices this can be faster than
+the standard memory mapped method of frame capture. (**Recommended for some
+webcams)
+.TP
+\fB-p\fP port
+Listen for client connections on the specified port.
+.TP
+\fB-q\fP jpeg_quality
+Set JPEG compression quality. Valid range is 0-100 (%).
+.TP
+\fB-r\fP
+Retry camera initialization inifinitely upon failure. Useful for when you
+unplug your camera frequently; the server will start and wait until the camera
+has been connected.
+.TP
+\fB-R\fP n
+Rotate the image 90 degrees (\fBn\fP) times. 1 = 90, 2 = 180, 3 = 270 degrees
+.TP
+\fB-s\fP
+Enable daemon mode via daemon() system call.
+.TP
+\fB-tf\fP R,G,B
+Set text foreground colour. Valid range is 0-255 (for each in R,G,B).
+.TP
+\fB-tb\fP colour
+Set text background colour. Valid range is 0-255 (for each in R,G,B).
+.TP
+\fB-tf\fP colour
+Set text transparency colour. Valid range is 0-255 (for each in R,G,B). To make the foreground or background of the caption transparent, set it to the same R,G,B values as the transparency colour.
+.TP
+\fB-T\fP x,y
+Draw the caption at the specified x,y coordinates in the frame. If the caption geometry (size of the text in pixels) is larger than the width or height of the image subtract the x,y point, the excess text will be truncated.
+.TP
+\fB-v\fP
+Verbose mode - display connections and messages to standard output.
+.TP
+\fB-x\fP
+Swap RGB colours to BGR colours. (Use this if your frames look blue or red)
+.SH GETTING STARTED
+.P
+The easiest way to make sure things are working is to run the server with
+no options and try to access "http://localhost:8888" via a web browser.
+.P
+If your device does not seem to work, try using the \fB-n\fP option to force
+the use of the \fBread()\fP system call. Try using your device with other
+software and try similar settings with \fBwebcam_server\fP.
+.P
+If you are using a v4l supported TV capture card and want to change channels,
+download \fBxawtv\fP and use v4lctl to configure it. This functionality
+is not yet supported by \fBwebcam_server\fP.
+.SH SETTING UP THE APPLET
+.B Note: The applet must reside on the same host as the webcam_server!
+.P
+Copy the following code into a publicly visible HTML document. You may have to
+adjust some values to fit your needs. Before it can be viewable by others, you
+must change "localhost" to the host name or IP address of your server.
+.P
+<APPLET code="WebCamApplet.class" archive="applet.jar" width="320" height="240">
+<param name=URL value="http://localhost:8888">
+<param name=FPS value="1">
+<param name=width value="320">
+<param name=height value="240">
+</APPLET>
+.fi
+.SH BUGS
+.P
+Send bug reports to Donn Morrison at donn@donn.dyndns.org.
+http://donn.dyndns.org/portalofnnod/webcam_server.html (homepage)
+.SH AUTHOR
+Donn Morrison <donn@donn.dyndns.org>
+.SH COPYRIGHT
+Copyright (C) 2004 Donn Morrison <donn@donn.dyndns.org>
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+.SH MISC
+If you enjoy this software, please let me know.

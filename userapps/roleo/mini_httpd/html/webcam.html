@@ -1,0 +1,225 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+	<title>Extra Settings &raquo; Webcam Server</title>
+
+	<link href="usr_main.css" rel="stylesheet" type="text/css">
+	<link href="usr_menus.css" rel="stylesheet" type="text/css">
+	<script src="usr_menus.js" type="text/javascript"></script>
+	<script src="util.js" type="text/javascript"></script>
+	<script src="ro_util.js" type="text/javascript"></script>
+	
+	<meta http-equiv="Pragma" content="no-cache">
+<script type='text/javascript'>
+<!-- hide
+
+<%roGetWebcamConf()%>
+
+function frmLoad() {
+    with ( document.forms[0] ) {
+	EnableWebcam.checked = ena;
+	ModulePath.value = unescape(strmodulepath);
+	EnableWAN.checked = wan;
+	Caption.value = unescape(strcaption);
+	Width.value = iwidth;
+	Height.value = iheight;
+	Fps.value = ifps;
+	Quality.value = iquality;
+	Tcpport.value = itcpport;
+	if (bdetected == true) {
+	    if (sdriver == '(none)') {
+		SuppWebcam.value = 'Yes - driver not loaded' ;
+	    } else {
+		SuppWebcam.value = 'Yes - ' + sdriver ;
+	    }
+	} else {
+	    SuppWebcam.value = 'No';
+	}
+    }
+}
+
+function btnApply() {
+   var loc = 'do.cgi?page=webcam&action=modify';
+   var iw = -1;
+   var ih = -1;
+   var ip = -1;
+   var iq = -1;
+   var it = -1;
+   var itmp = -1;
+   var strtmp1 = 'spca5xx';
+   var strtmp2 = 'default';
+   
+   with ( document.forms[0] ) {
+
+      if (itcpport == "") {
+         itmp = -1;
+      } else {
+         itmp = itcpport;
+      }
+
+      if ( EnableWebcam.checked == true ) {
+         if (ModulePath.value != "") {
+	    strtmp1 = ModulePath.value;
+	 }
+
+         if (Caption.value != "") {
+	    strtmp2 = Caption.value;
+	 }
+	 
+         if (Width.value == "") {
+	    iw = -1;
+	 } else {
+	    if (isNaN(Width.value)) {
+        	alert('Width value is invalid.');
+        	return;
+            }
+            iw = parseInt(Width.value);
+            if ( iw < 0 || iw > 65535 ) {
+        	alert('Width value is invalid.');
+        	return;
+            }
+	 }
+	 
+         if (Height.value == "") {
+	    ih = -1;
+	 } else {
+            if (isNaN(Height.value)) {
+        	alert('Height value is invalid.');
+        	return;
+            }
+            ih = parseInt(Height.value);
+            if ( ih < 0 || ih > 65535 ) {
+        	alert('Height value is invalid.');
+        	return;
+            }
+	 }
+
+         if ((iw == -1 && ih != -1) || (iw != -1 && ih == -1)) {
+    	    alert('Width or height value is invalid.');
+    	    return;
+         }
+
+         if (Fps.value == "") {
+	    ip = -1;
+	 } else {
+            if (isNaN(Fps.value)) {
+        	alert('Fps value is invalid.');
+        	return;
+            }
+            ip = parseInt(Fps.value);
+            if ( ip < 0 || ip > 65535 ) {
+        	alert('Fps value is invalid.');
+        	return;
+            }
+	 }
+
+         if (Quality.value == "") {
+	    iq = -1;
+	 } else {
+    	    if (isNaN(Quality.value)) {
+        	alert('Quality value is invalid.');
+        	return;
+            }
+            iq = parseInt(Quality.value);
+            if ( iq < 0 || iq > 65535 ) {
+        	alert('Quality value is invalid.');
+        	return;
+            }
+	 }
+
+         if (Tcpport.value == "") {
+	    it = -1;
+	 } else {
+            if (isNaN(Tcpport.value)) {
+        	alert('Tcpport value is invalid.');
+        	return;
+            }
+            it = parseInt(Tcpport.value);
+            if ( it < 0 || it > 65535 ) {
+        	alert('Tcpport value is invalid.');
+        	return;
+            }
+	 }
+
+         loc += '&state=' + EnableWebcam.checked + '&modulepath=' + escape(strtmp1) + '&wan=' + EnableWAN.checked  + '&caption=' + escape(strtmp2) + '&width=' + iw + '&height=' + ih + '&fps=' + ip + '&quality=' + iq + '&tcpport=' + it + '&oldtcpport=' + itmp;
+      
+      } else {
+         if (itcpport == "") {
+	    itmp = -1;
+	 } else {
+	    itmp = itcpport;
+	 }
+         loc += '&state=' + EnableWebcam.checked + '&modulepath=spca5xx&wan=false&caption=default&width=-1&height=-1&fps=-1&quality=-1&tcpport=-1&oldtcpport=' + itmp;
+      }
+   }
+
+   var code = 'location = "' + loc + '"';
+   eval(code);
+}
+
+function btnView() {
+   var loc = 'do.cgi?page=webcamview';
+
+   var code = 'location = "' + loc + '"';
+   eval(code);
+}
+
+// done hiding -->
+</script>
+</head>
+
+<body onload="initMenu(); frmLoad();">
+
+<img id="idImgHeader" src="p_red.gif">
+<div id="idHeader">Extra Settings</div>
+
+<script>createroMenu();</script>
+
+<div id="idContent">
+
+<h3>Webcam Server Configuration</h3>
+
+<br>
+
+<form onSubmit='return false'>
+	<table>
+	<tr><td><label>Supported webcam detected:</label></td>
+	<td><input type='text' name='SuppWebcam' id='SuppWebcam' disabled></td></tr>
+	<tr><td><br></td><td><br></td></tr>
+	<tr><td><label>Enable webcam_server:</label></td>
+	<td><input type='checkbox' name='EnableWebcam' id='EnableWebcam' value='0'></td></tr>
+	<tr><td><label>Kernel module path (leave blank for spca5xx driver):</label></td>
+	<td><input type='text' name='ModulePath' id='ModulePath'></td></tr>
+	<tr><td><label>Enable WAN access:</label></td>
+	<td><input type='checkbox' name='EnableWAN' id='EnableWAN' value='0'></td></tr>
+	<tr><td><label>Caption [%Y-%m-%d %H:%M:%S] ("none" for none):</label></td>
+	<td><input type='text' name='Caption' maxlength='64' id='Caption'></td></tr>
+	<tr><td><label>Width [320]:</label></td>
+	<td><input type='text' name='Width' maxlength='3' id='Width'></td></tr>
+	<tr><td><label>Height [240]:</label></td>
+	<td><input type='text' name='Height' maxlength='3' id='Height'></td></tr>
+	<tr><td><label>Maximum FPS [0 disabled]:</label></td>
+	<td><input type='text' name='Fps' maxlength='2' id='Fps'></td></tr>
+	<tr><td><label>JPEG compression quality (0 - 100) [60]:</label></td>
+	<td><input type='text' name='Quality' maxlength='3' id='Quality'></td></tr>
+	<tr><td><label>TCP port [8888]:</label></td>
+	<td><input type='text' name='Tcpport' maxlength='5' id='Tcpport'></td></tr>
+	</table>
+	<p><input type='button' onClick='btnApply()' value='Save'></p>
+		
+	<p>
+	Leave blank if you want to use default value.
+	<br>
+	Default value is in square brackets.
+	</p>
+	
+	<p><input type='button' onClick='btnView()' value='View'></p>
+</form>
+
+<br>
+
+</div>
+<p class="clsCopyright"></p>
+</body>
+</html>

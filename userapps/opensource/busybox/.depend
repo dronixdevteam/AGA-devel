@@ -1,0 +1,1061 @@
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/ledctrl.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/ledctrl.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/insmod.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/insmod.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/login.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/login.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/interface.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/interface.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/inet_common.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/inet_common.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ipv6.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/ask_confirmation.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/ask_confirmation.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/bb_asprintf.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/bb_asprintf.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/change_identity.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/change_identity.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/chomp.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/chomp.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/concat_path_file.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/concat_path_file.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/concat_subpath_file.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/concat_subpath_file.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/copy_file.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/copy_file.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/preserve/hardlinks.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/copyfd.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/copyfd.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/correct_password.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/correct_password.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/shadowpasswds.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/create_icmp6_socket.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/create_icmp6_socket.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ipv6.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/create_icmp_socket.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/create_icmp_socket.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/default_error_retval.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/default_error_retval.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/device_open.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/device_open.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/dump.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/dump.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/dump.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/dump.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/error_msg.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/error_msg.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/error_msg_and_die.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/error_msg_and_die.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/fclose_nonstdin.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/fclose_nonstdin.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/fflush_stdout_and_exit.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/fflush_stdout_and_exit.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/fgets_str.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/fgets_str.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/find_mount_point.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/find_mount_point.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/find_pid_by_name.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/find_pid_by_name.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/selinux.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/find_root_device.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/find_root_device.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/devfs.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/full_read.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/full_read.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/full_write.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/full_write.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/get_console.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/get_console.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/get_line_from_file.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/get_line_from_file.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/get_terminal_width_height.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/get_terminal_width_height.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/autowidth.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/getopt_ulflags.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/getopt_ulflags.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/hash_fd.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/hash_fd.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/sha1sum.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/md5sum.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/herror_msg.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/herror_msg.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/herror_msg_and_die.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/herror_msg_and_die.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/human_readable.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/human_readable.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/inet_common.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/inet_common.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/inet_common.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/inet_common.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ipv6.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/inode_hash.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/inode_hash.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/isdirectory.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/isdirectory.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/kernel_version.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/kernel_version.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/last_char_is.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/last_char_is.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/llist_add_to.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/llist_add_to.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/login.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/login.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/loop.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/loop.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/make_directory.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/make_directory.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/messages.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/messages.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/module_syscalls.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/module_syscalls.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/mtab.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/mtab.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/mtab_file.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/mtab_file.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/mtab/support.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/mtab/filename.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/my_getgrgid.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/my_getgrgid.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/grp_.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/grp_.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/my_getgrnam.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/my_getgrnam.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/pwd_.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/pwd_.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/grp_.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/grp_.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/my_getpwnam.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/my_getpwnam.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/pwd_.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/pwd_.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/grp_.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/grp_.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/my_getpwuid.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/my_getpwuid.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/pwd_.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/pwd_.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/my_getug.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/my_getug.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/obscure.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/obscure.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/parse_mode.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/parse_mode.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/parse_number.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/parse_number.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/perror_msg.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/perror_msg.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/perror_msg_and_die.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/perror_msg_and_die.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/perror_nomsg.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/perror_nomsg.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/perror_nomsg_and_die.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/perror_nomsg_and_die.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/print_file.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/print_file.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/printf.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/printf.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/process_escape_sequence.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/process_escape_sequence.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/procps.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/procps.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/selinux.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/pw_encrypt.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/pw_encrypt.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/sha1/passwords.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/pwd2spwd.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/pwd2spwd.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/shadow_.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/shadow_.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/qmodule.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/qmodule.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/read_package_field.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/read_package_field.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/recursive_action.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/recursive_action.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/remove_file.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/remove_file.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/restricted_shell.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/restricted_shell.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/run_parts.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/run_parts.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/run_shell.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/run_shell.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/selinux.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/safe_read.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/safe_read.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/safe_strncpy.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/safe_strncpy.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/safe_strtol.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/safe_strtol.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/safe_write.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/safe_write.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/setup_environment.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/setup_environment.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/simplify_path.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/simplify_path.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/skip_whitespace.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/skip_whitespace.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/speed_table.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/speed_table.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/syscalls.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/syscalls.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/trim.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/trim.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/vdprintf.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/vdprintf.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/verror_msg.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/verror_msg.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/vfork_daemon_rexec.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/vfork_daemon_rexec.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/vherror_msg.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/vherror_msg.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/vperror_msg.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/vperror_msg.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/warn_ignoring_args.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/warn_ignoring_args.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/wfopen.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/wfopen.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/wfopen_input.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/wfopen_input.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/xconnect.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/xconnect.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/xfuncs.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/xfuncs.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/xgetcwd.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/xgetcwd.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/xgethostbyname.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/xgethostbyname.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/xgethostbyname2.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/xgethostbyname2.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ipv6.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/xgetlarg.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/xgetlarg.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/xgetularg.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/xgetularg.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/xreadlink.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/xreadlink.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/xregcomp.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libbb/xregcomp.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/ping.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/ping.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/applets/applets.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/applets/applets.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/usage.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/usage.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/applets.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/applets.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/applets.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/applets.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/suid.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/suid/config.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/pwd_.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/pwd_.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/grp_.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/grp_.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/suid/config/quiet.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/file.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/applets/busybox.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/applets/busybox.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/locale/support.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/installer.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/init.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/autowidth.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/modutils/insmod.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/modutils/insmod.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/2/4/modules.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/2/6/modules.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/insmod/loadinkmem.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/insmod/version/checking.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/use/list.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/list/archtype.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/use/single.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/use/plt/entries.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/use/got/entries.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/use/plt/list.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/got/entry/size.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/plt/entry/size.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/check/tainted/module.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/insmod/ksymoops/symbols.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/insmod/load/map.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/insmod/load/map/full.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/modutils/lsmod.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/modutils/lsmod.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/check/tainted/module.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/query/module/interface.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/modutils/modprobe.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/modutils/modprobe.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/2/6/modules.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/modutils/rmmod.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/modutils/rmmod.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/2/6/modules.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/query/module/interface.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/procps/ps.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/procps/ps.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/selinux.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/procps/free.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/procps/free.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/procps/kill.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/procps/kill.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/killall.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/procps/pidof.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/procps/pidof.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/procps/renice.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/procps/renice.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/procps/sysctl.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/procps/sysctl.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/procps/top.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/procps/top.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/use/termios.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/selinux.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/procps/uptime.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/procps/uptime.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/sysklogd/syslogd.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/sysklogd/syslogd.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/rotate/logfile.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/remote/log.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ipc/syslog.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ipc/syslog/buffer/size.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/sysklogd/klogd.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/sysklogd/klogd.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/sysklogd/logger.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/sysklogd/logger.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/syslogd.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/sysklogd/logread.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/sysklogd/logread.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/logread/reduced/locking.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/libiproute/ip_parse_common_args.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/libiproute/ip_parse_common_args.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/libiproute/ipaddress.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/libiproute/ipaddress.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/libiproute/iplink.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/libiproute/iplink.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/libiproute/iproute.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/libiproute/iproute.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/libiproute/iptunnel.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/libiproute/iptunnel.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/libiproute/libnetlink.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/libiproute/libnetlink.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/libiproute/ll_addr.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/libiproute/ll_addr.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/libiproute/utils.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/libiproute/utils.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/sendarp.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/sendarp.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/tftp.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/tftp.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/../../ftpd/fwsyscall.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/../../ftpd/fwsyscall.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/tftp/blocksize.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/tftp/debug.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/tftp/get.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/tftp/put.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/tftpd.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/tftpd.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/../../ftpd/fwsyscall.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/../../ftpd/fwsyscall.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/tftpd/get.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/tftpd/put.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/ping.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/ping.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/fancy/ping.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/arping.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/arping.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/ftpgetput.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/ftpgetput.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/ftpget.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/ftpput.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/hostname.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/hostname.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/httpd.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/httpd.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/lfs.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/httpd/usage/from/inetd/only.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/httpd/basic/auth.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/httpd/cgi.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/httpd/config/with/mime/types.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/httpd/encode/url/str.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/httpd/set/remote/port/to/env.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/httpd/auth/md5.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/httpd/reload/config/sighup.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/httpd/setuid.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/ifconfig.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/ifconfig.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/inet_common.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/inet_common.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ifconfig/slip.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ipv6.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ifconfig/broadcast/plus.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ifconfig/hw.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ifconfig/memstart/ioaddr/irq.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ifconfig/status.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/ifupdown.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/ifupdown.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ifupdown/mapping.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ifupdown/ip.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ifupdown/ipx.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ifupdown/ipv6.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ifupdown/ipv4.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/inetd.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/inetd.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/inetd/support/biltin/echo.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/inetd/support/biltin/discard.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/inetd/support/biltin/time.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/inetd/support/biltin/daytime.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/inetd/support/biltin/chargen.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/ip.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/ip.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ip/address.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ip/route.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ip/link.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ip/tunnel.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/ipaddr.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/ipaddr.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/ipcalc.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/ipcalc.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ipcalc/fancy.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/iplink.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/iplink.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/iproute.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/iproute.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/iptunnel.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/iptunnel.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/nameif.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/nameif.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/nc.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/nc.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/netstat.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/netstat.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/inet_common.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/inet_common.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/pwd_.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/pwd_.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/route.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ipv6.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/nslookup.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/nslookup.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/ping6.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/ping6.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/fancy/ping6.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/fancy/ping.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/route.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/route.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/inet_common.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/inet_common.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ipv6.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/telnet.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/telnet.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/telnet/ttype.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/telnet/autologin.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/autowidth.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/telnetd.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/telnetd.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/login.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/telnetd/inetd.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/devpts.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/traceroute.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/traceroute.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/inet_common.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/inet_common.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/traceroute/verbose.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/traceroute.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/traceroute/so/debug.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/vconfig.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/vconfig.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/wget.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/networking/wget.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/wget/statusbar.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/wget/authentication.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/wget/ip6/literal.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/dc.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/dc.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/sysinfo.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/sysinfo.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/adjtimex.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/adjtimex.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/crond.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/crond.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/crond/call/sendmail.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/crontab.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/crontab.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/devfsd.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/devfsd.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/devfsd/modload.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/devfsd/verbose.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/debug.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/devfsd/fg/np.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/file.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/modules/devfs.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/hdparm.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/hdparm.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/hdparm/get/identity.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/hdparm/hdio/getset/dma.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/hdparm/hdio/unregister/hwif.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/hdparm/hdio/scan/hwif.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/hdparm/hdio/tristate/hwif.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/hdparm/hdio/drive/reset.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/last.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/last.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/makedevs.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/makedevs.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/mt.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/mt.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/rx.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/rx.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/strings.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/strings.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/time.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/time.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/watchdog.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/miscutils/watchdog.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/archive_xread_all.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/archive_xread_all.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/archive_xread_all_eof.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/archive_xread_all_eof.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/check_header_gzip.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/check_header_gzip.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/data_align.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/data_align.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/data_extract_all.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/data_extract_all.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/data_extract_to_buffer.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/data_extract_to_buffer.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/data_extract_to_stdout.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/data_extract_to_stdout.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/data_skip.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/data_skip.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/decompress_bunzip2.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/decompress_bunzip2.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/decompress_uncompress.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/decompress_uncompress.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/decompress_unzip.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/decompress_unzip.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/filter_accept_all.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/filter_accept_all.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/filter_accept_list.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/filter_accept_list.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/filter_accept_list_reassign.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/filter_accept_list_reassign.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/deb/tar/gz.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/deb/tar/bz2.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/filter_accept_reject_list.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/filter_accept_reject_list.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/find_list_entry.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/find_list_entry.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/get_header_ar.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/get_header_ar.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ar/long/filenames.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/get_header_cpio.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/get_header_cpio.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/get_header_tar.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/get_header_tar.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/tar/gnu/extensions.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/tar/oldgnu/compatability.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/get_header_tar_bz2.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/get_header_tar_bz2.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/get_header_tar_gz.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/get_header_tar_gz.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/header_list.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/header_list.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/header_skip.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/header_skip.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/header_verbose_list.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/header_verbose_list.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/init_handle.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/init_handle.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/open_transformer.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/open_transformer.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/seek_by_char.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/seek_by_char.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/seek_by_jump.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/seek_by_jump.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/unarchive/tape.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/unpack_ar_archive.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/libunarchive/unpack_ar_archive.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/ar.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/ar.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/bunzip2.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/bunzip2.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/cpio.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/cpio.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/dpkg.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/dpkg.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/deb/tar/gz.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/deb/tar/bz2.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/dpkg_deb.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/dpkg_deb.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/deb/tar/gz.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/deb/tar/bz2.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/gunzip.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/gunzip.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/gunzip/uncompress.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/gzip.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/gzip.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/gunzip.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/rpm.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/rpm.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/rpm2cpio.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/rpm2cpio.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/tar.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/tar.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/tar/create.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/tar/from.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/tar/gzip.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/tar/compress.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/tar/bzip2.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/tar/long/options.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/uncompress.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/uncompress.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/unzip.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/archival/unzip.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/unarchive.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/console-tools/chvt.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/console-tools/chvt.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/console-tools/clear.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/console-tools/clear.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/console-tools/deallocvt.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/console-tools/deallocvt.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/console-tools/dumpkmap.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/console-tools/dumpkmap.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/console-tools/loadfont.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/console-tools/loadfont.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/console-tools/loadkmap.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/console-tools/loadkmap.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/console-tools/openvt.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/console-tools/openvt.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/console-tools/reset.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/console-tools/reset.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/console-tools/setkeycodes.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/console-tools/setkeycodes.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/libcoreutils/cp_mv_stat.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/libcoreutils/cp_mv_stat.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/libcoreutils/getopt_mk_fifo_nod.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/libcoreutils/getopt_mk_fifo_nod.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/libcoreutils/xgetoptfile_sort_uniq.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/libcoreutils/xgetoptfile_sort_uniq.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/basename.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/basename.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/cal.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/cal.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/locale/support.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/cat.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/cat.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/chgrp.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/chgrp.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/chmod.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/chmod.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/chown.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/chown.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/chroot.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/chroot.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/cmp.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/cmp.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/cp.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/cp.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/cut.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/cut.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/date.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/date.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/date/isofmt.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/dd.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/dd.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/df.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/df.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/human/readable.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/dirname.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/dirname.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/dos2unix.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/dos2unix.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/du.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/du.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/human/readable.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/du/defalt/blocksize/1k.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/echo.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/echo.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/fancy/echo.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/env.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/env.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/expr.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/expr.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/false.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/false.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/fold.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/fold.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/head.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/head.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/fancy/head.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/hostid.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/hostid.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/id.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/id.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/pwd_.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/pwd_.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/selinux.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/install.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/install.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/length.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/length.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/ln.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/ln.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/logname.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/logname.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/ls.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/ls.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/selinux.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ls/timestamps.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ls/sortfiles.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ls/followlinks.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/human/readable.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ls/filetypes.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ls/color.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/autowidth.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ls/recursive.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/locale/support.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/ls/username.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/md5_sha1_sum.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/md5_sha1_sum.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/md5/sha1/sum/check.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/md5sum.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/sha1sum.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/mkdir.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/mkdir.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/mkfifo.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/mkfifo.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/mknod.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/mknod.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/mv.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/mv.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/od.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/od.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/dump.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/dump.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/printf.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/printf.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/pwd.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/pwd.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/realpath.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/realpath.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/rm.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/rm.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/rmdir.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/rmdir.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/seq.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/seq.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/sleep.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/sleep.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/fancy/sleep.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/sort.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/sort.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/stty.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/stty.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/sync.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/sync.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/tail.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/tail.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/fancy/tail.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/tee.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/tee.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/tee/use/block/io.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/test.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/test.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/test/64.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/touch.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/touch.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/tr.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/tr.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/true.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/true.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/tty.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/tty.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/uname.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/uname.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/uniq.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/uniq.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/usleep.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/usleep.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/uudecode.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/uudecode.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/uuencode.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/uuencode.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/watch.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/watch.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/wc.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/wc.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/locale/support.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/who.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/who.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/whoami.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/whoami.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/yes.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/coreutils/yes.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/debianutils/mktemp.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/debianutils/mktemp.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/debianutils/pipe_progress.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/debianutils/pipe_progress.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/debianutils/readlink.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/debianutils/readlink.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/debianutils/run_parts.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/debianutils/run_parts.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/debianutils/start_stop_daemon.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/debianutils/start_stop_daemon.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/pwd_.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/pwd_.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/debianutils/which.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/debianutils/which.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/editors/awk.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/editors/awk.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/awk/math.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/editors/patch.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/editors/patch.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/editors/sed.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/editors/sed.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/editors/vi.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/editors/vi.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/locale/support.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/vi/optimize/cursor.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/vi/use/signals.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/vi/crashme.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/vi/dot/cmd.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/vi/yankmark.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/vi/readonly.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/vi/search.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/vi/colon.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/vi/win/resize.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/vi/setopts.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/vi/set.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/findutils/find.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/findutils/find.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/find/type.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/find/perm.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/find/mtime.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/find/xdev.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/find/newer.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/find/inum.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/findutils/grep.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/findutils/grep.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/grep/context.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/grep/egrep/alias.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/findutils/xargs.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/findutils/xargs.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/xargs/support/confirmation.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/xargs/support/quotes.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/xargs/support/termopt.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/xargs/support/zero/term.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/init/halt.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/init/halt.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/init.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/init/init.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/init/init.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/syslogd.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/init/coredumps.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/extra/quiet.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/use/inittab.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/initrd.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/init/init_shared.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/init/init_shared.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/initrd.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/init.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/init/mesg.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/init/mesg.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/libbb.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/init/poweroff.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/init/poweroff.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/init.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/init/reboot.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/init/reboot.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/init.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libpwdgrp/pwd_grp.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/libpwdgrp/pwd_grp.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/pwd_.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/pwd_.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/grp_.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/grp_.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/shadow_.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/shadow_.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/loginutils/addgroup.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/loginutils/addgroup.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/pwd_.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/pwd_.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/grp_.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/grp_.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/shadowpasswds.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/adduser.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/loginutils/adduser.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/loginutils/adduser.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/shadowpasswds.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/addgroup.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/loginutils/delgroup.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/loginutils/delgroup.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/deluser.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/shadowpasswds.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/loginutils/delline.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/loginutils/delline.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/loginutils/deluser.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/loginutils/deluser.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/shadowpasswds.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/loginutils/getty.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/loginutils/getty.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/syslogd.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/u/w/tmp.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/loginutils/login.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/loginutils/login.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/selinux.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/u/w/tmp.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/securetty.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/wheel/group.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/loginutils/passwd.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/loginutils/passwd.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/shadowpasswds.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/loginutils/su.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/loginutils/su.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/u/w/tmp.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/selinux.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/loginutils/sulogin.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/loginutils/sulogin.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/shadowpasswds.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/loginutils/vlock.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/loginutils/vlock.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/shadowpasswds.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/shell/ash.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/shell/ash.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/pwd_.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/pwd_.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/ash/job/control.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/ash/alias.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/ash/optimize/for/size.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/ash/math/support.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/ash/cmdcmd.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/ash/getopts.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/sh/extra/quiet.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/ash/mail.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/ash/math/support/64.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/ash/random/support.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/locale/support.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/command/savehistory.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/command/editing.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/sh/standalone/shell.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/command/tab/completion.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/shell/cmdedit.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/shell/cmdedit.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/../shell/cmdedit.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/../shell/cmdedit.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/locale/support.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/command/tab/completion.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/command/editing.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/command/username/completion.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/getusername/and/homedir.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/pwd_.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/pwd_.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/command/history.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/nonprintable/inverse/put.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/ash.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/command/savehistory.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/shell/hush.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/shell/hush.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/command/editing.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/sh/standalone/shell.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/sh/extra/quiet.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/shell/lash.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/shell/lash.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/locale/support.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/lash/pipe/n/redirects.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/lash/job/control.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/command/editing.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/sh/standalone/shell.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/sh/extra/quiet.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/shell/msh.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/shell/msh.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/command/editing.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/sh/extra/quiet.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/sh/standalone/shell.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/dmesg.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/dmesg.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/fbset.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/fbset.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/fbset/fancy.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/fbset/readmode.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/fdflush.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/fdflush.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/fdformat.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/fdformat.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/fdisk.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/fdisk.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/sun/label.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/sgi/label.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/aix/label.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/osf/label.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/fdisk/writable.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/fdisk/advanced.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/weird/partition/types.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/fdisk/blksize.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/freeramdisk.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/freeramdisk.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/fsck_minix.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/fsck_minix.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/minix2.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/getopt.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/getopt.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/hexdump.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/hexdump.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/dump.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/dump.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/hwclock.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/hwclock.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/hwclock/longoptions.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/losetup.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/losetup.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/mkfs_minix.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/mkfs_minix.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/minix2.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/mkswap.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/mkswap.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/more.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/more.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/use/termios.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/mount.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/mount.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/nfsmount.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/mount/loop.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/mtab/support.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/nfsmount.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/nfsmount.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/pivot_root.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/pivot_root.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/rdate.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/rdate.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/swaponoff.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/swaponoff.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h)
+/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/umount.o: /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/util-linux/umount.c \
+ /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h $(dep_/myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/include/busybox.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/mount/force.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/mount/loop.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/mtab/support.h) \
+   $(wildcard /myviews/mir_PROD_3.04_sview/CommEngine/userapps/opensource/busybox/config/feature/clean/up.h)

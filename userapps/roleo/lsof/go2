@@ -1,0 +1,27 @@
+#!/bin/sh
+
+TOOLCHAINS_HOME=/opt/toolchains/uclibc-crosstools
+
+#export LIBS="-L/opt/bcm963xx_router/userapps/roleo/ncurses-5.6/lib \
+#    -L/opt/bcm963xx_router/userapps/roleo/glib-2.14.6/glib/.libs"
+#export LDFLGS="-lncurses -lglib"
+export INCLUDES="-I${TOOLCHAINS_HOME}/include/c++/3.4.2 \
+    -I${TOOLCHAINS_HOME}/mips-linux/sys-include"
+#    -I/opt/bcm963xx_router/userapps/roleo/ncurses-5.6/include \
+#    -I/opt/bcm963xx_router/userapps/roleo/glib-2.14.6"
+export CFLAGS="${INCLUDES} ${LIBS}"
+export CXXFLAGS="${INCLUDES} ${LIBS}"
+#export STUFF_CFLAGS="${INCLUDES} ${LIBS}"
+#export LDFLAGS="-static"
+export CC="${TOOLCHAINS_HOME}/bin/mips-uclibc-gcc"
+export CXX="${TOOLCHAINS_HOME}/bin/mips-uclibc-g++"
+export LD="${TOOLCHAINS_HOME}/bin/mips-uclibc-ld"
+export AR="${TOOLCHAINS_HOME}/bin/mips-uclibc-ar"
+export RANLIB="${TOOLCHAINS_HOME}/bin/mips-uclibc-ranlib"
+export STRIP="${TOOLCHAINS_HOME}/bin/mips-uclibc-strip"
+
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${TOOLCHAINS_HOME}/lib
+export PATH="${PATH}:${TOOLCHAINS_HOME}/bin"
+#export GLIB_CONFIG="/opt/bcm963xx_router/userapps/roleo/glib-2.14.6"
+
+make

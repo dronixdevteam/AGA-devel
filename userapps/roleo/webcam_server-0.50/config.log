@@ -1,0 +1,52 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:557: checking for a BSD compatible install
+configure:610: checking whether build environment is sane
+configure:667: checking whether make sets ${MAKE}
+configure:713: checking for working aclocal-1.4
+configure:726: checking for working autoconf
+configure:739: checking for working automake-1.4
+configure:752: checking for working autoheader
+configure:765: checking for working makeinfo
+configure:782: checking for gcc
+configure:895: checking whether the C compiler (/opt/toolchains/uclibc-crosstools/bin/mips-uclibc-gcc -I/opt/toolchains/uclibc-crosstools/include/c++/3.4.2     -I/opt/toolchains/uclibc-crosstools/mips-linux/sys-include     -I/opt/bcm963xx_router/userapps/roleo/jpeg-6b -L/opt/toolchains/uclibc-crosstools/mips-linux/lib     -L/opt/bcm963xx_router/userapps/roleo/jpeg-6b -ljpeg) works
+configure:911: /opt/toolchains/uclibc-crosstools/bin/mips-uclibc-gcc -o conftest -I/opt/toolchains/uclibc-crosstools/include/c++/3.4.2     -I/opt/toolchains/uclibc-crosstools/mips-linux/sys-include     -I/opt/bcm963xx_router/userapps/roleo/jpeg-6b -L/opt/toolchains/uclibc-crosstools/mips-linux/lib     -L/opt/bcm963xx_router/userapps/roleo/jpeg-6b  -ljpeg conftest.c -L/opt/toolchains/uclibc-crosstools/mips-linux/lib     -L/opt/bcm963xx_router/userapps/roleo/jpeg-6b 1>&5
+configure:937: checking whether the C compiler (/opt/toolchains/uclibc-crosstools/bin/mips-uclibc-gcc -I/opt/toolchains/uclibc-crosstools/include/c++/3.4.2     -I/opt/toolchains/uclibc-crosstools/mips-linux/sys-include     -I/opt/bcm963xx_router/userapps/roleo/jpeg-6b -L/opt/toolchains/uclibc-crosstools/mips-linux/lib     -L/opt/bcm963xx_router/userapps/roleo/jpeg-6b -ljpeg) is a cross-compiler
+configure:942: checking whether we are using GNU C
+configure:970: checking whether /opt/toolchains/uclibc-crosstools/bin/mips-uclibc-gcc accepts -g
+configure:1013: checking for a BSD compatible install
+configure:1070: checking for mawk
+configure:1100: checking how to run the C preprocessor
+configure:1181: checking whether /opt/toolchains/uclibc-crosstools/bin/mips-uclibc-gcc needs -traditional
+configure:1227: checking whether ln -s works
+configure:1251: checking for ftime
+configure:1251: checking for inet_ntoa
+configure:1251: checking for malloc
+configure:1251: checking for memset
+configure:1251: checking for munmap
+configure:1251: checking for select
+configure:1251: checking for socket
+configure:1251: checking for strchr
+configure:1251: checking for strstr
+configure:1307: checking for unistd.h
+configure:1346: checking for getpagesize
+configure:1399: checking for working mmap
+configure:1570: checking for strftime
+configure:1668: checking for jpeglib.h
+configure:1702: checking for linux/videodev.h
+configure:1735: checking for pthread_create in -lpthread
+configure:1787: checking for arpa/inet.h
+configure:1787: checking for fcntl.h
+configure:1787: checking for netinet/in.h
+configure:1787: checking for stdlib.h
+configure:1787: checking for string.h
+configure:1787: checking for sys/ioctl.h
+configure:1787: checking for sys/socket.h
+configure:1787: checking for sys/time.h
+configure:1787: checking for sys/timeb.h
+configure:1787: checking for unistd.h
+configure:1824: checking for ANSI C header files
+configure:1928: checking whether time.h and sys/time.h may both be included
+configure:1964: checking whether struct tm is in sys/time.h or time.h
+configure:1998: checking return type of signal handlers

@@ -1,0 +1,54 @@
+# This file is a shell script that caches the results of configure
+# tests run on this system so they can be shared between configure
+# scripts and configure runs.  It is not useful on other systems.
+# If it contains results you don't want to keep, you may remove or edit it.
+#
+# By default, configure uses ./config.cache as the cache file,
+# creating it if it does not exist already.  You can give configure
+# the --cache-file=FILE option to use a different cache file; that is
+# what configure does when it calls configure scripts in
+# subdirectories, so they share the cache.
+# Giving --cache-file=/dev/null disables caching, for debugging configure.
+# config.status only pays attention to the cache file if you give it the
+# --recheck option to rerun configure.
+#
+ac_cv_func_ftime=${ac_cv_func_ftime=yes}
+ac_cv_func_getpagesize=${ac_cv_func_getpagesize=yes}
+ac_cv_func_inet_ntoa=${ac_cv_func_inet_ntoa=yes}
+ac_cv_func_malloc=${ac_cv_func_malloc=yes}
+ac_cv_func_memset=${ac_cv_func_memset=yes}
+ac_cv_func_mmap_fixed_mapped=${ac_cv_func_mmap_fixed_mapped=no}
+ac_cv_func_munmap=${ac_cv_func_munmap=yes}
+ac_cv_func_select=${ac_cv_func_select=yes}
+ac_cv_func_socket=${ac_cv_func_socket=yes}
+ac_cv_func_strchr=${ac_cv_func_strchr=yes}
+ac_cv_func_strftime=${ac_cv_func_strftime=yes}
+ac_cv_func_strstr=${ac_cv_func_strstr=yes}
+ac_cv_header_arpa_inet_h=${ac_cv_header_arpa_inet_h=yes}
+ac_cv_header_fcntl_h=${ac_cv_header_fcntl_h=yes}
+ac_cv_header_jpeglib_h=${ac_cv_header_jpeglib_h=no}
+ac_cv_header_linux_videodev_h=${ac_cv_header_linux_videodev_h=yes}
+ac_cv_header_netinet_in_h=${ac_cv_header_netinet_in_h=yes}
+ac_cv_header_stdc=${ac_cv_header_stdc=yes}
+ac_cv_header_stdlib_h=${ac_cv_header_stdlib_h=yes}
+ac_cv_header_string_h=${ac_cv_header_string_h=yes}
+ac_cv_header_sys_ioctl_h=${ac_cv_header_sys_ioctl_h=yes}
+ac_cv_header_sys_socket_h=${ac_cv_header_sys_socket_h=yes}
+ac_cv_header_sys_time_h=${ac_cv_header_sys_time_h=yes}
+ac_cv_header_sys_timeb_h=${ac_cv_header_sys_timeb_h=yes}
+ac_cv_header_time=${ac_cv_header_time=yes}
+ac_cv_header_unistd_h=${ac_cv_header_unistd_h=yes}
+ac_cv_lib_pthread_pthread_create=${ac_cv_lib_pthread_pthread_create=yes}
+ac_cv_path_install=${ac_cv_path_install='/usr/bin/install -c'}
+ac_cv_prog_AWK=${ac_cv_prog_AWK=mawk}
+ac_cv_prog_CC=${ac_cv_prog_CC=/opt/toolchains/uclibc-crosstools/bin/mips-uclibc-gcc}
+ac_cv_prog_CPP=${ac_cv_prog_CPP='/opt/toolchains/uclibc-crosstools/bin/mips-uclibc-gcc -E'}
+ac_cv_prog_LN_S=${ac_cv_prog_LN_S='ln -s'}
+ac_cv_prog_cc_cross=${ac_cv_prog_cc_cross=yes}
+ac_cv_prog_cc_g=${ac_cv_prog_cc_g=yes}
+ac_cv_prog_cc_works=${ac_cv_prog_cc_works=yes}
+ac_cv_prog_gcc=${ac_cv_prog_gcc=yes}
+ac_cv_prog_gcc_traditional=${ac_cv_prog_gcc_traditional=no}
+ac_cv_prog_make_make_set=${ac_cv_prog_make_make_set=yes}
+ac_cv_struct_tm=${ac_cv_struct_tm=time.h}
+ac_cv_type_signal=${ac_cv_type_signal=void}

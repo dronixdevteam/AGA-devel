@@ -1,0 +1,248 @@
+cfdisk-cfdisk.o cfdisk-cfdisk.o: cfdisk.c ./../config.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/stdlib.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/features.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/uClibc_config.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/sys/cdefs.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/include/stddef.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/waitflags.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/waitstatus.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/endian.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/endian.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/sys/types.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/types.h \
+  /opt/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502//lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/kernel_types.h \
+  /opt/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502//lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/pthreadtypes.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/sched.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/time.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/sys/select.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/select.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/sigset.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/time.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/sys/sysmacros.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/alloca.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/stdio.h \
+  /opt/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502//lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/uClibc_stdio.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/wchar.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/wchar.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/include/stdarg.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/stdio_lim.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/unistd.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/posix_opt.h \
+  /opt/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502//lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/environments.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/wordsize.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/confname.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/getopt.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/ctype.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/uClibc_touplow.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/errno.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/errno.h \
+  /opt/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502//lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/errno_values.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/getopt.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/fcntl.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/fcntl.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/sys/stat.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/stat.h \
+  /opt/dva-g3672b/userapps/roleo/ncurses-5.7/include/ncurses.h \
+  /opt/dva-g3672b/userapps/roleo/ncurses-5.7/include/ncurses_dll.h \
+  /opt/dva-g3672b/userapps/roleo/ncurses-5.7/include/unctrl.h \
+  /opt/dva-g3672b/userapps/roleo/ncurses-5.7/include/curses.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/include/stdbool.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/signal.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/signum.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/siginfo.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/sigaction.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/sigcontext.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/asm/sigcontext.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/asm/sgidefs.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/sigstack.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/ucontext.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/sys/ucontext.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/sigthread.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/math.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/huge_val.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/nan.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/mathdef.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/mathcalls.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/string.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/sys/ioctl.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/ioctls.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/asm/ioctls.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/asm/ioctl.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/ioctl-types.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/sys/ttydefaults.h \
+  ../shlibs/blkid/src/blkid.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/stdint.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/wctype.h \
+  ../include/nls.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/locale.h \
+  /opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/uClibc_locale.h \
+  ../include/blkdev.h ../include/xstrncpy.h common.h gpt.h \
+  ../include/mbsalign.h ../include/widechar.h
+
+./../config.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/stdlib.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/features.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/uClibc_config.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/sys/cdefs.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/include/stddef.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/waitflags.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/waitstatus.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/endian.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/endian.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/sys/types.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/types.h:
+
+/opt/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502//lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/kernel_types.h:
+
+/opt/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502//lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/pthreadtypes.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/sched.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/time.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/sys/select.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/select.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/sigset.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/time.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/sys/sysmacros.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/alloca.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/stdio.h:
+
+/opt/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502//lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/uClibc_stdio.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/wchar.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/wchar.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/include/stdarg.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/stdio_lim.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/unistd.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/posix_opt.h:
+
+/opt/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502//lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/environments.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/wordsize.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/confname.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/getopt.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/ctype.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/uClibc_touplow.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/errno.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/errno.h:
+
+/opt/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502//lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/errno_values.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/getopt.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/fcntl.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/fcntl.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/sys/stat.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/stat.h:
+
+/opt/dva-g3672b/userapps/roleo/ncurses-5.7/include/ncurses.h:
+
+/opt/dva-g3672b/userapps/roleo/ncurses-5.7/include/ncurses_dll.h:
+
+/opt/dva-g3672b/userapps/roleo/ncurses-5.7/include/unctrl.h:
+
+/opt/dva-g3672b/userapps/roleo/ncurses-5.7/include/curses.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/include/stdbool.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/signal.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/signum.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/siginfo.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/sigaction.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/sigcontext.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/asm/sigcontext.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/asm/sgidefs.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/sigstack.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/ucontext.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/sys/ucontext.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/sigthread.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/math.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/huge_val.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/nan.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/mathdef.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/mathcalls.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/string.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/sys/ioctl.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/ioctls.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/asm/ioctls.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/asm/ioctl.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/ioctl-types.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/sys/ttydefaults.h:
+
+../shlibs/blkid/src/blkid.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/stdint.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/wctype.h:
+
+../include/nls.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/locale.h:
+
+/opt/dva-g3672b/toolchains/uclibc-crosstools_gcc-3.4.2_uclibc-20050502/bin/../lib/gcc/mips-linux-uclibc/3.4.2/../../../../mips-linux-uclibc/sys-include/bits/uClibc_locale.h:
+
+../include/blkdev.h:
+
+../include/xstrncpy.h:
+
+common.h:
+
+gpt.h:
+
+../include/mbsalign.h:
+
+../include/widechar.h:

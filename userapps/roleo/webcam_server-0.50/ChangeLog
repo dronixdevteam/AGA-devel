@@ -1,0 +1,60 @@
+0.50
+- better palette support
+- fixed caption bug that led to crash on large caption
+- fixed geometry command line parameter
+- removed watchdog
+
+0.40
+- fixed redhat 7.3 accept() bug (thanks to Eric S. Johansson <esj@harvee.billerica.ma.us>)
+- added man page
+- switched to automake, autoconf
+- modularised project source files
+- better HTTP support (fixes IE and wget disconnect problems)
+- differentiate between APPLET and HTTP clients
+- removed xawtv's libng dependency
+- added ability to disable stream or HTTP
+- added max frames/bytes/seconds per connection
+- some applet changes: connected indicator, cannot connect jpeg (error.jpg),
+  put applet in jar for faster loading, added FPS as applet parameter
+
+0.30
+- allows vertical/horizontal image flipping
+- allows image rotation 90/180/270 degrees
+- added simple gamma correction
+
+0.20 april 4 2002
+- new applet written, Surveyor Corp's applet no longer needed
+- included libng in package, allows for better device support
+- fixed bug in jdatabuf.c to allow dynamic memory allocation
+- vastly improved threading and synchronization
+- HTTP/1.0 compliant: any browser can grab a snapshot
+- now uses request/receive rather than streaming
+- allows frames / second testing
+- increased customizability via command line
+- added more command line arguments: logging, use libng, test mode,
+  jpeg quality, swap rgb, geometry, daemon mode, caption, retry init
+- added a watchdog thread to monitor the grabber thread and restart
+  it when it has stopped responding
+- if camera is unplugged the server can wait until it is plugged back in
+  and resume operation
+- enhanced logging functionality (message repeated %d times)
+
+0.10
+- logging...not working yet
+
+0.09
+- added parameter support for more flexibility
+- increased jdatabuf buffer size
+
+0.07
+- sends jpeg from memory rather than from a file
+
+0.05
+- simultaneous connections (pthreads)
+- fixed too many open files bug
+
+0.02
+- added addtext() for caption
+
+0.01
+- single connection

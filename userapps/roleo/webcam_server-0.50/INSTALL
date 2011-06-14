@@ -1,0 +1,71 @@
+webcam_server (c) 2002 Donn Morrison
+====================================
+
+Installation Instructions
+-------------------------
+
+Installation should be as easy as unpacking the files and running the
+following commands:
+
+./configure
+make
+make install
+
+
+Setting up the Client Applet
+----------------------------
+
+Once you've installed the webcam_server binary, you will need to place
+the client applet (applet.jar) in a public location.
+
+IMPORTANT NOTES:
+- You need a web server to use the applet.
+- The applet must reside on the same host that your webcam_server is
+  running on. This is an applet security measure used to disallow
+  applets to connect to unauthorized hosts.
+
+If your web root is /var/www, you can create a directory called 'client' and
+place the 'src/client/webcam.html' and 'src/client/applet.jar' files in this
+directory.
+
+
+Using the Client Application
+----------------------------
+
+A standalone Java application in 'src/client/applet.jar' provides a viewer
+you can use to watch a webcam_server stream. Usage follows:
+
+java -classpath applet.jar WebCam localhost 8888
+
+You can use this to view any webcam_server stream.
+
+Depending on your Java installation, you might need to provide the classpath to
+the standard Java classes. On my system this is
+'/usr/lib/jdk1.1/lib/classes.zip'. You may have to use something like this:
+
+java -classpath applet.jar:/usr/lib/jdk1.1/lib/classes.zip WebCam localhost 8888
+
+
+Testing the Installation
+------------------------
+
+You can test the server by running it with no command line arguments (provided
+your video device is /dev/video0):
+
+webcam_server
+
+Check that the server is working correctly by opening a web browser and using
+the following URL:
+
+http://localhost:8888
+
+You should see an image captured from your video device on /dev/video0.
+
+
+Command line Parameters
+-----------------------
+
+To get a list of command line parameters, consult the webcam_server man page
+or use the following command:
+
+webcam_server -h

@@ -1,0 +1,6 @@
+port=81
+data_dir=/webs2
+cgipat=*.cgi
+user=admin
+chroot
+pidfile=/var/run/mini_httpd.pid
